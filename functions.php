@@ -48,7 +48,6 @@ function galaxy_setup() {
 add_action( "after_setup_theme", "galaxy_setup" );
 
 function galaxy_scripts() {
-    //Add custom fonts
     //Noto Sans SC
     wp_enqueue_style( "galaxy-fonts-zh", "fonts.googleapis.com/earlyaccess/notosanssc.css" );
     //Noto Sans SC Sliced
@@ -57,17 +56,14 @@ function galaxy_scripts() {
     wp_enqueue_style( "galaxy-fonts-jp", "fonts.googleapis.com/earlyaccess/notosansjp.css" );
     //Roboto
     wp_enqueue_style( "galaxy-fonts-en", "fonts.googleapis.com/css?family=Roboto:300,400,500,700" );
-    
     //Font Awesome
-    wp_enqueue_style( "font-awesome", get_theme_file_uri( "assets/engine/font-awesome/css/font-awesome.min.css" ) );
-    
+    wp_enqueue_style( "font-awesome", "assets/engine/font-awesome/css/font-awesome.min.css" );
     //Theme stylesheet
     wp_enqueue_style( "galaxy-style", get_stylesheet_uri() );
-    
     //Add jQuery support
-    wp_enqueue_script( "jQuery", get_theme_file_uri( "assets/engine/jQuery/jquery-3.2.1.min.js" ) );
+    wp_enqueue_script( "jQuery", "assets/engine/jQuery/jquery-3.2.1.min.js", "jQuery", "3.2.1", true );
     
-    wp_enqueue_script( "galaxy-global", get_theme_file_uri( "assets/js/galaxy-global.js" ) );
+    wp_enqueue_script( "galaxy-global", "assets/js/galaxy-global.js", "Global-Script", "1.0.0", true );
     
     
 }
@@ -78,7 +74,7 @@ function galaxy_widgets_init() {
     register_sidebar( array(
         "name"          => __( "Sidebar left", "Galaxy" ),
         "id"            => "sidebar-1",
-        "description"   => __( "Add widgets here to appear in your sidebar.", "Galaxy" ),
+        "description"   => __( "Add widgets here to appear in your left sidebar.", "Galaxy" ),
         "class"         => "",
         "before_widget" => "<li class='widget'>",
         "after_widget"  => "</li>",
@@ -89,7 +85,18 @@ function galaxy_widgets_init() {
     register_sidebar( array(
         "name"          => __( "Sidebar right", "Galaxy" ),
         "id"            => "sidebar-2",
-        "description"   => __( "Add widgets here to appear in your sidebar.", "Galaxy" ),
+        "description"   => __( "Add widgets here to appear in your right sidebar.", "Galaxy" ),
+        "class"         => "",
+        "before_widget" => "<li class='widget'>",
+        "after_widget"  => "</li>",
+        "before_title"  => "<h2 class='galaxy-widget-title'>",
+        "after_title"   => "</h2>"
+    ) );
+    
+    register_sidebar( array(
+        "name"          => __( "Footer", "Galaxy" ),
+        "id"            => "sidebar-3",
+        "description"   => __( "Add widgets here to appear in your footer.", "Galaxy" ),
         "class"         => "",
         "before_widget" => "<li class='widget'>",
         "after_widget"  => "</li>",

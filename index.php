@@ -1,10 +1,8 @@
 <?php get_header(); ?>
 
-    <body <?php body_class(); ?>>
-    
-    <?php get_sidebar(); ?>
+<?php get_sidebar(); ?>
 
-    <article>
+    <div class="galaxy-posts-container">
         <?php if ( have_posts() ) :
             
             while ( have_posts() ) : the_post();
@@ -24,10 +22,6 @@
         
         endif;
         ?>
-    </article>
-
-    <script src=""></script>
-    <script src=""></script>
-    </body>
+    </div>
 
 <?php get_footer(); ?>
