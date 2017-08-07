@@ -44,6 +44,7 @@ function galaxy_setup() {
     add_theme_support( "post-thumbnails" );
     //Add post thumbnails sizes
     add_image_size( "full-size", 9999, 9999 );
+    add_image_size( "post-size", "", "" );
     
     //Loads the theme's translated strings
     load_theme_textdomain( "galaxy-domain", get_template_directory() . "/languages" );

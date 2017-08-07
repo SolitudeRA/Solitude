@@ -10,7 +10,6 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 Tags: black , responsive
 Text Domain: galaxy-domain
 */
-
 @import "variables";
 @import "format";
 @import "fonts";
@@ -20,16 +19,28 @@ Text Domain: galaxy-domain
 Index page
 
 ========================================*/
-.galaxy-posts-container {
+.posts-container {
+  .post {
+    .post-header {
+      .post-meta {
+        .post-meta-time {
 
-}
+        }
+        .post-meta-cat {
 
-.post {
+        }
+        .post-meta-tags {
 
-}
+        }
+        .post-meta-edit {
 
-.galaxy-article-header {
+        }
+      }
+    }
+    .post-content {
 
+    }
+  }
 }
 
 .galaxy-widget-title {

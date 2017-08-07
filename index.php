@@ -2,7 +2,7 @@
 
 <?php get_sidebar(); ?>
 
-    <div class="galaxy-posts-container">
+    <div class="posts-container">
         <?php if ( have_posts() ) :
             
             while ( have_posts() ) : the_post();
