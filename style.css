@@ -2,13 +2,13 @@
 Theme Name: Galaxy
 Theme URI: http://www.protogalaxy.me/tag/galaxy/
 Author: Arthur.Lee
-Author URI: http://www.protogalaxy.me
+Author URI: https://www.protogalaxy.me
 Description:
 Version: 1.0
 License: GNU General Public License v3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 Tags: black , responsive
-Text Domain: galaxy
+Text Domain: galaxy-domain
 */
 /*========================================
 
@@ -70,11 +70,11 @@ Format-System
 ========================================*/
 @media (min-width: 0) {
   .col-common-1 {
-    width: 8.33333%;
+    width: 8.3333333333%;
     float: left; }
 
   .col-common-2 {
-    width: 16.66667%;
+    width: 16.6666666667%;
     float: left; }
 
   .col-common-3 {
@@ -82,11 +82,11 @@ Format-System
     float: left; }
 
   .col-common-4 {
-    width: 33.33333%;
+    width: 33.3333333333%;
     float: left; }
 
   .col-common-5 {
-    width: 41.66667%;
+    width: 41.6666666667%;
     float: left; }
 
   .col-common-6 {
@@ -94,11 +94,11 @@ Format-System
     float: left; }
 
   .col-common-7 {
-    width: 58.33333%;
+    width: 58.3333333333%;
     float: left; }
 
   .col-common-8 {
-    width: 66.66667%;
+    width: 66.6666666667%;
     float: left; }
 
   .col-common-9 {
@@ -106,11 +106,11 @@ Format-System
     float: left; }
 
   .col-common-10 {
-    width: 83.33333%;
+    width: 83.3333333333%;
     float: left; }
 
   .col-common-11 {
-    width: 91.66667%;
+    width: 91.6666666667%;
     float: left; }
 
   .col-common-12 {
@@ -118,11 +118,11 @@ Format-System
     float: left; }
 
   .col-common-pull-1 {
-    width: 8.33333%;
+    width: 8.3333333333%;
     float: left; }
 
   .col-common-pull-2 {
-    width: 16.66667%;
+    width: 16.6666666667%;
     float: left; }
 
   .col-common-pull-3 {
@@ -130,11 +130,11 @@ Format-System
     float: left; }
 
   .col-common-pull-4 {
-    width: 33.33333%;
+    width: 33.3333333333%;
     float: left; }
 
   .col-common-pull-5 {
-    width: 41.66667%;
+    width: 41.6666666667%;
     float: left; }
 
   .col-common-pull-6 {
@@ -142,11 +142,11 @@ Format-System
     float: left; }
 
   .col-common-pull-7 {
-    width: 58.33333%;
+    width: 58.3333333333%;
     float: left; }
 
   .col-common-pull-8 {
-    width: 66.66667%;
+    width: 66.6666666667%;
     float: left; }
 
   .col-common-pull-9 {
@@ -154,11 +154,11 @@ Format-System
     float: left; }
 
   .col-common-pull-10 {
-    width: 83.33333%;
+    width: 83.3333333333%;
     float: left; }
 
   .col-common-pull-11 {
-    width: 91.66667%;
+    width: 91.6666666667%;
     float: left; }
 
   .col-common-pull-12 {
@@ -166,11 +166,11 @@ Format-System
     float: left; }
 
   .col-common-push-1 {
-    width: 8.33333%;
+    width: 8.3333333333%;
     float: left; }
 
   .col-common-push-2 {
-    width: 16.66667%;
+    width: 16.6666666667%;
     float: left; }
 
   .col-common-push-3 {
@@ -178,11 +178,11 @@ Format-System
     float: left; }
 
   .col-common-push-4 {
-    width: 33.33333%;
+    width: 33.3333333333%;
     float: left; }
 
   .col-common-push-5 {
-    width: 41.66667%;
+    width: 41.6666666667%;
     float: left; }
 
   .col-common-push-6 {
@@ -190,11 +190,11 @@ Format-System
     float: left; }
 
   .col-common-push-7 {
-    width: 58.33333%;
+    width: 58.3333333333%;
     float: left; }
 
   .col-common-push-8 {
-    width: 66.66667%;
+    width: 66.6666666667%;
     float: left; }
 
   .col-common-push-9 {
@@ -202,11 +202,11 @@ Format-System
     float: left; }
 
   .col-common-push-10 {
-    width: 83.33333%;
+    width: 83.3333333333%;
     float: left; }
 
   .col-common-push-11 {
-    width: 91.66667%;
+    width: 91.6666666667%;
     float: left; }
 
   .col-common-push-12 {
@@ -214,11 +214,11 @@ Format-System
     float: left; }
 
   .col-common-offset-1 {
-    width: 8.33333%;
+    width: 8.3333333333%;
     float: left; }
 
   .col-common-offset-2 {
-    width: 16.66667%;
+    width: 16.6666666667%;
     float: left; }
 
   .col-common-offset-3 {
@@ -226,11 +226,11 @@ Format-System
     float: left; }
 
   .col-common-offset-4 {
-    width: 33.33333%;
+    width: 33.3333333333%;
     float: left; }
 
   .col-common-offset-5 {
-    width: 41.66667%;
+    width: 41.6666666667%;
     float: left; }
 
   .col-common-offset-6 {
@@ -238,11 +238,11 @@ Format-System
     float: left; }
 
   .col-common-offset-7 {
-    width: 58.33333%;
+    width: 58.3333333333%;
     float: left; }
 
   .col-common-offset-8 {
-    width: 66.66667%;
+    width: 66.6666666667%;
     float: left; }
 
   .col-common-offset-9 {
@@ -250,11 +250,11 @@ Format-System
     float: left; }
 
   .col-common-offset-10 {
-    width: 83.33333%;
+    width: 83.3333333333%;
     float: left; }
 
   .col-common-offset-11 {
-    width: 91.66667%;
+    width: 91.6666666667%;
     float: left; }
 
   .col-common-offset-12 {
@@ -262,11 +262,11 @@ Format-System
     float: left; } }
 @media (min-width: 768px) {
   .col-iPad-1 {
-    width: 8.33333%;
+    width: 8.3333333333%;
     float: left; }
 
   .col-iPad-2 {
-    width: 16.66667%;
+    width: 16.6666666667%;
     float: left; }
 
   .col-iPad-3 {
@@ -274,11 +274,11 @@ Format-System
     float: left; }
 
   .col-iPad-4 {
-    width: 33.33333%;
+    width: 33.3333333333%;
     float: left; }
 
   .col-iPad-5 {
-    width: 41.66667%;
+    width: 41.6666666667%;
     float: left; }
 
   .col-iPad-6 {
@@ -286,11 +286,11 @@ Format-System
     float: left; }
 
   .col-iPad-7 {
-    width: 58.33333%;
+    width: 58.3333333333%;
     float: left; }
 
   .col-iPad-8 {
-    width: 66.66667%;
+    width: 66.6666666667%;
     float: left; }
 
   .col-iPad-9 {
@@ -298,11 +298,11 @@ Format-System
     float: left; }
 
   .col-iPad-10 {
-    width: 83.33333%;
+    width: 83.3333333333%;
     float: left; }
 
   .col-iPad-11 {
-    width: 91.66667%;
+    width: 91.6666666667%;
     float: left; }
 
   .col-iPad-12 {
@@ -310,11 +310,11 @@ Format-System
     float: left; }
 
   .col-iPad-pull-1 {
-    width: 8.33333%;
+    width: 8.3333333333%;
     float: left; }
 
   .col-iPad-pull-2 {
-    width: 16.66667%;
+    width: 16.6666666667%;
     float: left; }
 
   .col-iPad-pull-3 {
@@ -322,11 +322,11 @@ Format-System
     float: left; }
 
   .col-iPad-pull-4 {
-    width: 33.33333%;
+    width: 33.3333333333%;
     float: left; }
 
   .col-iPad-pull-5 {
-    width: 41.66667%;
+    width: 41.6666666667%;
     float: left; }
 
   .col-iPad-pull-6 {
@@ -334,11 +334,11 @@ Format-System
     float: left; }
 
   .col-iPad-pull-7 {
-    width: 58.33333%;
+    width: 58.3333333333%;
     float: left; }
 
   .col-iPad-pull-8 {
-    width: 66.66667%;
+    width: 66.6666666667%;
     float: left; }
 
   .col-iPad-pull-9 {
@@ -346,11 +346,11 @@ Format-System
     float: left; }
 
   .col-iPad-pull-10 {
-    width: 83.33333%;
+    width: 83.3333333333%;
     float: left; }
 
   .col-iPad-pull-11 {
-    width: 91.66667%;
+    width: 91.6666666667%;
     float: left; }
 
   .col-iPad-pull-12 {
@@ -358,11 +358,11 @@ Format-System
     float: left; }
 
   .col-iPad-push-1 {
-    width: 8.33333%;
+    width: 8.3333333333%;
     float: left; }
 
   .col-iPad-push-2 {
-    width: 16.66667%;
+    width: 16.6666666667%;
     float: left; }
 
   .col-iPad-push-3 {
@@ -370,11 +370,11 @@ Format-System
     float: left; }
 
   .col-iPad-push-4 {
-    width: 33.33333%;
+    width: 33.3333333333%;
     float: left; }
 
   .col-iPad-push-5 {
-    width: 41.66667%;
+    width: 41.6666666667%;
     float: left; }
 
   .col-iPad-push-6 {
@@ -382,11 +382,11 @@ Format-System
     float: left; }
 
   .col-iPad-push-7 {
-    width: 58.33333%;
+    width: 58.3333333333%;
     float: left; }
 
   .col-iPad-push-8 {
-    width: 66.66667%;
+    width: 66.6666666667%;
     float: left; }
 
   .col-iPad-push-9 {
@@ -394,11 +394,11 @@ Format-System
     float: left; }
 
   .col-iPad-push-10 {
-    width: 83.33333%;
+    width: 83.3333333333%;
     float: left; }
 
   .col-iPad-push-11 {
-    width: 91.66667%;
+    width: 91.6666666667%;
     float: left; }
 
   .col-iPad-push-12 {
@@ -406,11 +406,11 @@ Format-System
     float: left; }
 
   .col-iPad-offset-1 {
-    width: 8.33333%;
+    width: 8.3333333333%;
     float: left; }
 
   .col-iPad-offset-2 {
-    width: 16.66667%;
+    width: 16.6666666667%;
     float: left; }
 
   .col-iPad-offset-3 {
@@ -418,11 +418,11 @@ Format-System
     float: left; }
 
   .col-iPad-offset-4 {
-    width: 33.33333%;
+    width: 33.3333333333%;
     float: left; }
 
   .col-iPad-offset-5 {
-    width: 41.66667%;
+    width: 41.6666666667%;
     float: left; }
 
   .col-iPad-offset-6 {
@@ -430,11 +430,11 @@ Format-System
     float: left; }
 
   .col-iPad-offset-7 {
-    width: 58.33333%;
+    width: 58.3333333333%;
     float: left; }
 
   .col-iPad-offset-8 {
-    width: 66.66667%;
+    width: 66.6666666667%;
     float: left; }
 
   .col-iPad-offset-9 {
@@ -442,11 +442,11 @@ Format-System
     float: left; }
 
   .col-iPad-offset-10 {
-    width: 83.33333%;
+    width: 83.3333333333%;
     float: left; }
 
   .col-iPad-offset-11 {
-    width: 91.66667%;
+    width: 91.6666666667%;
     float: left; }
 
   .col-iPad-offset-12 {
@@ -454,11 +454,11 @@ Format-System
     float: left; } }
 @media (min-width: 1024px) {
   .col-iPadPro-1 {
-    width: 8.33333%;
+    width: 8.3333333333%;
     float: left; }
 
   .col-iPadPro-2 {
-    width: 16.66667%;
+    width: 16.6666666667%;
     float: left; }
 
   .col-iPadPro-3 {
@@ -466,11 +466,11 @@ Format-System
     float: left; }
 
   .col-iPadPro-4 {
-    width: 33.33333%;
+    width: 33.3333333333%;
     float: left; }
 
   .col-iPadPro-5 {
-    width: 41.66667%;
+    width: 41.6666666667%;
     float: left; }
 
   .col-iPadPro-6 {
@@ -478,11 +478,11 @@ Format-System
     float: left; }
 
   .col-iPadPro-7 {
-    width: 58.33333%;
+    width: 58.3333333333%;
     float: left; }
 
   .col-iPadPro-8 {
-    width: 66.66667%;
+    width: 66.6666666667%;
     float: left; }
 
   .col-iPadPro-9 {
@@ -490,11 +490,11 @@ Format-System
     float: left; }
 
   .col-iPadPro-10 {
-    width: 83.33333%;
+    width: 83.3333333333%;
     float: left; }
 
   .col-iPadPro-11 {
-    width: 91.66667%;
+    width: 91.6666666667%;
     float: left; }
 
   .col-iPadPro-12 {
@@ -502,11 +502,11 @@ Format-System
     float: left; }
 
   .col-iPadPro-pull-1 {
-    width: 8.33333%;
+    width: 8.3333333333%;
     float: left; }
 
   .col-iPadPro-pull-2 {
-    width: 16.66667%;
+    width: 16.6666666667%;
     float: left; }
 
   .col-iPadPro-pull-3 {
@@ -514,11 +514,11 @@ Format-System
     float: left; }
 
   .col-iPadPro-pull-4 {
-    width: 33.33333%;
+    width: 33.3333333333%;
     float: left; }
 
   .col-iPadPro-pull-5 {
-    width: 41.66667%;
+    width: 41.6666666667%;
     float: left; }
 
   .col-iPadPro-pull-6 {
@@ -526,11 +526,11 @@ Format-System
     float: left; }
 
   .col-iPadPro-pull-7 {
-    width: 58.33333%;
+    width: 58.3333333333%;
     float: left; }
 
   .col-iPadPro-pull-8 {
-    width: 66.66667%;
+    width: 66.6666666667%;
     float: left; }
 
   .col-iPadPro-pull-9 {
@@ -538,11 +538,11 @@ Format-System
     float: left; }
 
   .col-iPadPro-pull-10 {
-    width: 83.33333%;
+    width: 83.3333333333%;
     float: left; }
 
   .col-iPadPro-pull-11 {
-    width: 91.66667%;
+    width: 91.6666666667%;
     float: left; }
 
   .col-iPadPro-pull-12 {
@@ -550,11 +550,11 @@ Format-System
     float: left; }
 
   .col-iPadPro-push-1 {
-    width: 8.33333%;
+    width: 8.3333333333%;
     float: left; }
 
   .col-iPadPro-push-2 {
-    width: 16.66667%;
+    width: 16.6666666667%;
     float: left; }
 
   .col-iPadPro-push-3 {
@@ -562,11 +562,11 @@ Format-System
     float: left; }
 
   .col-iPadPro-push-4 {
-    width: 33.33333%;
+    width: 33.3333333333%;
     float: left; }
 
   .col-iPadPro-push-5 {
-    width: 41.66667%;
+    width: 41.6666666667%;
     float: left; }
 
   .col-iPadPro-push-6 {
@@ -574,11 +574,11 @@ Format-System
     float: left; }
 
   .col-iPadPro-push-7 {
-    width: 58.33333%;
+    width: 58.3333333333%;
     float: left; }
 
   .col-iPadPro-push-8 {
-    width: 66.66667%;
+    width: 66.6666666667%;
     float: left; }
 
   .col-iPadPro-push-9 {
@@ -586,11 +586,11 @@ Format-System
     float: left; }
 
   .col-iPadPro-push-10 {
-    width: 83.33333%;
+    width: 83.3333333333%;
     float: left; }
 
   .col-iPadPro-push-11 {
-    width: 91.66667%;
+    width: 91.6666666667%;
     float: left; }
 
   .col-iPadPro-push-12 {
@@ -598,11 +598,11 @@ Format-System
     float: left; }
 
   .col-iPadPro-offset-1 {
-    width: 8.33333%;
+    width: 8.3333333333%;
     float: left; }
 
   .col-iPadPro-offset-2 {
-    width: 16.66667%;
+    width: 16.6666666667%;
     float: left; }
 
   .col-iPadPro-offset-3 {
@@ -610,11 +610,11 @@ Format-System
     float: left; }
 
   .col-iPadPro-offset-4 {
-    width: 33.33333%;
+    width: 33.3333333333%;
     float: left; }
 
   .col-iPadPro-offset-5 {
-    width: 41.66667%;
+    width: 41.6666666667%;
     float: left; }
 
   .col-iPadPro-offset-6 {
@@ -622,11 +622,11 @@ Format-System
     float: left; }
 
   .col-iPadPro-offset-7 {
-    width: 58.33333%;
+    width: 58.3333333333%;
     float: left; }
 
   .col-iPadPro-offset-8 {
-    width: 66.66667%;
+    width: 66.6666666667%;
     float: left; }
 
   .col-iPadPro-offset-9 {
@@ -634,11 +634,11 @@ Format-System
     float: left; }
 
   .col-iPadPro-offset-10 {
-    width: 83.33333%;
+    width: 83.3333333333%;
     float: left; }
 
   .col-iPadPro-offset-11 {
-    width: 91.66667%;
+    width: 91.6666666667%;
     float: left; }
 
   .col-iPadPro-offset-12 {
@@ -646,11 +646,11 @@ Format-System
     float: left; } }
 @media (min-width: 1366px) {
   .col-laptop-1 {
-    width: 8.33333%;
+    width: 8.3333333333%;
     float: left; }
 
   .col-laptop-2 {
-    width: 16.66667%;
+    width: 16.6666666667%;
     float: left; }
 
   .col-laptop-3 {
@@ -658,11 +658,11 @@ Format-System
     float: left; }
 
   .col-laptop-4 {
-    width: 33.33333%;
+    width: 33.3333333333%;
     float: left; }
 
   .col-laptop-5 {
-    width: 41.66667%;
+    width: 41.6666666667%;
     float: left; }
 
   .col-laptop-6 {
@@ -670,11 +670,11 @@ Format-System
     float: left; }
 
   .col-laptop-7 {
-    width: 58.33333%;
+    width: 58.3333333333%;
     float: left; }
 
   .col-laptop-8 {
-    width: 66.66667%;
+    width: 66.6666666667%;
     float: left; }
 
   .col-laptop-9 {
@@ -682,11 +682,11 @@ Format-System
     float: left; }
 
   .col-laptop-10 {
-    width: 83.33333%;
+    width: 83.3333333333%;
     float: left; }
 
   .col-laptop-11 {
-    width: 91.66667%;
+    width: 91.6666666667%;
     float: left; }
 
   .col-laptop-12 {
@@ -694,11 +694,11 @@ Format-System
     float: left; }
 
   .col-laptop-pull-1 {
-    width: 8.33333%;
+    width: 8.3333333333%;
     float: left; }
 
   .col-laptop-pull-2 {
-    width: 16.66667%;
+    width: 16.6666666667%;
     float: left; }
 
   .col-laptop-pull-3 {
@@ -706,11 +706,11 @@ Format-System
     float: left; }
 
   .col-laptop-pull-4 {
-    width: 33.33333%;
+    width: 33.3333333333%;
     float: left; }
 
   .col-laptop-pull-5 {
-    width: 41.66667%;
+    width: 41.6666666667%;
     float: left; }
 
   .col-laptop-pull-6 {
@@ -718,11 +718,11 @@ Format-System
     float: left; }
 
   .col-laptop-pull-7 {
-    width: 58.33333%;
+    width: 58.3333333333%;
     float: left; }
 
   .col-laptop-pull-8 {
-    width: 66.66667%;
+    width: 66.6666666667%;
     float: left; }
 
   .col-laptop-pull-9 {
@@ -730,11 +730,11 @@ Format-System
     float: left; }
 
   .col-laptop-pull-10 {
-    width: 83.33333%;
+    width: 83.3333333333%;
     float: left; }
 
   .col-laptop-pull-11 {
-    width: 91.66667%;
+    width: 91.6666666667%;
     float: left; }
 
   .col-laptop-pull-12 {
@@ -742,11 +742,11 @@ Format-System
     float: left; }
 
   .col-laptop-push-1 {
-    width: 8.33333%;
+    width: 8.3333333333%;
     float: left; }
 
   .col-laptop-push-2 {
-    width: 16.66667%;
+    width: 16.6666666667%;
     float: left; }
 
   .col-laptop-push-3 {
@@ -754,11 +754,11 @@ Format-System
     float: left; }
 
   .col-laptop-push-4 {
-    width: 33.33333%;
+    width: 33.3333333333%;
     float: left; }
 
   .col-laptop-push-5 {
-    width: 41.66667%;
+    width: 41.6666666667%;
     float: left; }
 
   .col-laptop-push-6 {
@@ -766,11 +766,11 @@ Format-System
     float: left; }
 
   .col-laptop-push-7 {
-    width: 58.33333%;
+    width: 58.3333333333%;
     float: left; }
 
   .col-laptop-push-8 {
-    width: 66.66667%;
+    width: 66.6666666667%;
     float: left; }
 
   .col-laptop-push-9 {
@@ -778,11 +778,11 @@ Format-System
     float: left; }
 
   .col-laptop-push-10 {
-    width: 83.33333%;
+    width: 83.3333333333%;
     float: left; }
 
   .col-laptop-push-11 {
-    width: 91.66667%;
+    width: 91.6666666667%;
     float: left; }
 
   .col-laptop-push-12 {
@@ -790,11 +790,11 @@ Format-System
     float: left; }
 
   .col-laptop-offset-1 {
-    width: 8.33333%;
+    width: 8.3333333333%;
     float: left; }
 
   .col-laptop-offset-2 {
-    width: 16.66667%;
+    width: 16.6666666667%;
     float: left; }
 
   .col-laptop-offset-3 {
@@ -802,11 +802,11 @@ Format-System
     float: left; }
 
   .col-laptop-offset-4 {
-    width: 33.33333%;
+    width: 33.3333333333%;
     float: left; }
 
   .col-laptop-offset-5 {
-    width: 41.66667%;
+    width: 41.6666666667%;
     float: left; }
 
   .col-laptop-offset-6 {
@@ -814,11 +814,11 @@ Format-System
     float: left; }
 
   .col-laptop-offset-7 {
-    width: 58.33333%;
+    width: 58.3333333333%;
     float: left; }
 
   .col-laptop-offset-8 {
-    width: 66.66667%;
+    width: 66.6666666667%;
     float: left; }
 
   .col-laptop-offset-9 {
@@ -826,11 +826,11 @@ Format-System
     float: left; }
 
   .col-laptop-offset-10 {
-    width: 83.33333%;
+    width: 83.3333333333%;
     float: left; }
 
   .col-laptop-offset-11 {
-    width: 91.66667%;
+    width: 91.6666666667%;
     float: left; }
 
   .col-laptop-offset-12 {
@@ -838,11 +838,11 @@ Format-System
     float: left; } }
 @media (min-width: 1920px) {
   .col-fhd-1 {
-    width: 8.33333%;
+    width: 8.3333333333%;
     float: left; }
 
   .col-fhd-2 {
-    width: 16.66667%;
+    width: 16.6666666667%;
     float: left; }
 
   .col-fhd-3 {
@@ -850,11 +850,11 @@ Format-System
     float: left; }
 
   .col-fhd-4 {
-    width: 33.33333%;
+    width: 33.3333333333%;
     float: left; }
 
   .col-fhd-5 {
-    width: 41.66667%;
+    width: 41.6666666667%;
     float: left; }
 
   .col-fhd-6 {
@@ -862,11 +862,11 @@ Format-System
     float: left; }
 
   .col-fhd-7 {
-    width: 58.33333%;
+    width: 58.3333333333%;
     float: left; }
 
   .col-fhd-8 {
-    width: 66.66667%;
+    width: 66.6666666667%;
     float: left; }
 
   .col-fhd-9 {
@@ -874,11 +874,11 @@ Format-System
     float: left; }
 
   .col-fhd-10 {
-    width: 83.33333%;
+    width: 83.3333333333%;
     float: left; }
 
   .col-fhd-11 {
-    width: 91.66667%;
+    width: 91.6666666667%;
     float: left; }
 
   .col-fhd-12 {
@@ -886,11 +886,11 @@ Format-System
     float: left; }
 
   .col-fhd-pull-1 {
-    width: 8.33333%;
+    width: 8.3333333333%;
     float: left; }
 
   .col-fhd-pull-2 {
-    width: 16.66667%;
+    width: 16.6666666667%;
     float: left; }
 
   .col-fhd-pull-3 {
@@ -898,11 +898,11 @@ Format-System
     float: left; }
 
   .col-fhd-pull-4 {
-    width: 33.33333%;
+    width: 33.3333333333%;
     float: left; }
 
   .col-fhd-pull-5 {
-    width: 41.66667%;
+    width: 41.6666666667%;
     float: left; }
 
   .col-fhd-pull-6 {
@@ -910,11 +910,11 @@ Format-System
     float: left; }
 
   .col-fhd-pull-7 {
-    width: 58.33333%;
+    width: 58.3333333333%;
     float: left; }
 
   .col-fhd-pull-8 {
-    width: 66.66667%;
+    width: 66.6666666667%;
     float: left; }
 
   .col-fhd-pull-9 {
@@ -922,11 +922,11 @@ Format-System
     float: left; }
 
   .col-fhd-pull-10 {
-    width: 83.33333%;
+    width: 83.3333333333%;
     float: left; }
 
   .col-fhd-pull-11 {
-    width: 91.66667%;
+    width: 91.6666666667%;
     float: left; }
 
   .col-fhd-pull-12 {
@@ -934,11 +934,11 @@ Format-System
     float: left; }
 
   .col-fhd-push-1 {
-    width: 8.33333%;
+    width: 8.3333333333%;
     float: left; }
 
   .col-fhd-push-2 {
-    width: 16.66667%;
+    width: 16.6666666667%;
     float: left; }
 
   .col-fhd-push-3 {
@@ -946,11 +946,11 @@ Format-System
     float: left; }
 
   .col-fhd-push-4 {
-    width: 33.33333%;
+    width: 33.3333333333%;
     float: left; }
 
   .col-fhd-push-5 {
-    width: 41.66667%;
+    width: 41.6666666667%;
     float: left; }
 
   .col-fhd-push-6 {
@@ -958,11 +958,11 @@ Format-System
     float: left; }
 
   .col-fhd-push-7 {
-    width: 58.33333%;
+    width: 58.3333333333%;
     float: left; }
 
   .col-fhd-push-8 {
-    width: 66.66667%;
+    width: 66.6666666667%;
     float: left; }
 
   .col-fhd-push-9 {
@@ -970,11 +970,11 @@ Format-System
     float: left; }
 
   .col-fhd-push-10 {
-    width: 83.33333%;
+    width: 83.3333333333%;
     float: left; }
 
   .col-fhd-push-11 {
-    width: 91.66667%;
+    width: 91.6666666667%;
     float: left; }
 
   .col-fhd-push-12 {
@@ -982,11 +982,11 @@ Format-System
     float: left; }
 
   .col-fhd-offset-1 {
-    width: 8.33333%;
+    width: 8.3333333333%;
     float: left; }
 
   .col-fhd-offset-2 {
-    width: 16.66667%;
+    width: 16.6666666667%;
     float: left; }
 
   .col-fhd-offset-3 {
@@ -994,11 +994,11 @@ Format-System
     float: left; }
 
   .col-fhd-offset-4 {
-    width: 33.33333%;
+    width: 33.3333333333%;
     float: left; }
 
   .col-fhd-offset-5 {
-    width: 41.66667%;
+    width: 41.6666666667%;
     float: left; }
 
   .col-fhd-offset-6 {
@@ -1006,11 +1006,11 @@ Format-System
     float: left; }
 
   .col-fhd-offset-7 {
-    width: 58.33333%;
+    width: 58.3333333333%;
     float: left; }
 
   .col-fhd-offset-8 {
-    width: 66.66667%;
+    width: 66.6666666667%;
     float: left; }
 
   .col-fhd-offset-9 {
@@ -1018,11 +1018,11 @@ Format-System
     float: left; }
 
   .col-fhd-offset-10 {
-    width: 83.33333%;
+    width: 83.3333333333%;
     float: left; }
 
   .col-fhd-offset-11 {
-    width: 91.66667%;
+    width: 91.6666666667%;
     float: left; }
 
   .col-fhd-offset-12 {
@@ -1030,11 +1030,11 @@ Format-System
     float: left; } }
 @media (min-width: 2560px) {
   .col-WQHD-1 {
-    width: 8.33333%;
+    width: 8.3333333333%;
     float: left; }
 
   .col-WQHD-2 {
-    width: 16.66667%;
+    width: 16.6666666667%;
     float: left; }
 
   .col-WQHD-3 {
@@ -1042,11 +1042,11 @@ Format-System
     float: left; }
 
   .col-WQHD-4 {
-    width: 33.33333%;
+    width: 33.3333333333%;
     float: left; }
 
   .col-WQHD-5 {
-    width: 41.66667%;
+    width: 41.6666666667%;
     float: left; }
 
   .col-WQHD-6 {
@@ -1054,11 +1054,11 @@ Format-System
     float: left; }
 
   .col-WQHD-7 {
-    width: 58.33333%;
+    width: 58.3333333333%;
     float: left; }
 
   .col-WQHD-8 {
-    width: 66.66667%;
+    width: 66.6666666667%;
     float: left; }
 
   .col-WQHD-9 {
@@ -1066,11 +1066,11 @@ Format-System
     float: left; }
 
   .col-WQHD-10 {
-    width: 83.33333%;
+    width: 83.3333333333%;
     float: left; }
 
   .col-WQHD-11 {
-    width: 91.66667%;
+    width: 91.6666666667%;
     float: left; }
 
   .col-WQHD-12 {
@@ -1078,11 +1078,11 @@ Format-System
     float: left; }
 
   .col-WQHD-pull-1 {
-    width: 8.33333%;
+    width: 8.3333333333%;
     float: left; }
 
   .col-WQHD-pull-2 {
-    width: 16.66667%;
+    width: 16.6666666667%;
     float: left; }
 
   .col-WQHD-pull-3 {
@@ -1090,11 +1090,11 @@ Format-System
     float: left; }
 
   .col-WQHD-pull-4 {
-    width: 33.33333%;
+    width: 33.3333333333%;
     float: left; }
 
   .col-WQHD-pull-5 {
-    width: 41.66667%;
+    width: 41.6666666667%;
     float: left; }
 
   .col-WQHD-pull-6 {
@@ -1102,11 +1102,11 @@ Format-System
     float: left; }
 
   .col-WQHD-pull-7 {
-    width: 58.33333%;
+    width: 58.3333333333%;
     float: left; }
 
   .col-WQHD-pull-8 {
-    width: 66.66667%;
+    width: 66.6666666667%;
     float: left; }
 
   .col-WQHD-pull-9 {
@@ -1114,11 +1114,11 @@ Format-System
     float: left; }
 
   .col-WQHD-pull-10 {
-    width: 83.33333%;
+    width: 83.3333333333%;
     float: left; }
 
   .col-WQHD-pull-11 {
-    width: 91.66667%;
+    width: 91.6666666667%;
     float: left; }
 
   .col-WQHD-pull-12 {
@@ -1126,11 +1126,11 @@ Format-System
     float: left; }
 
   .col-WQHD-push-1 {
-    width: 8.33333%;
+    width: 8.3333333333%;
     float: left; }
 
   .col-WQHD-push-2 {
-    width: 16.66667%;
+    width: 16.6666666667%;
     float: left; }
 
   .col-WQHD-push-3 {
@@ -1138,11 +1138,11 @@ Format-System
     float: left; }
 
   .col-WQHD-push-4 {
-    width: 33.33333%;
+    width: 33.3333333333%;
     float: left; }
 
   .col-WQHD-push-5 {
-    width: 41.66667%;
+    width: 41.6666666667%;
     float: left; }
 
   .col-WQHD-push-6 {
@@ -1150,11 +1150,11 @@ Format-System
     float: left; }
 
   .col-WQHD-push-7 {
-    width: 58.33333%;
+    width: 58.3333333333%;
     float: left; }
 
   .col-WQHD-push-8 {
-    width: 66.66667%;
+    width: 66.6666666667%;
     float: left; }
 
   .col-WQHD-push-9 {
@@ -1162,11 +1162,11 @@ Format-System
     float: left; }
 
   .col-WQHD-push-10 {
-    width: 83.33333%;
+    width: 83.3333333333%;
     float: left; }
 
   .col-WQHD-push-11 {
-    width: 91.66667%;
+    width: 91.6666666667%;
     float: left; }
 
   .col-WQHD-push-12 {
@@ -1174,11 +1174,11 @@ Format-System
     float: left; }
 
   .col-WQHD-offset-1 {
-    width: 8.33333%;
+    width: 8.3333333333%;
     float: left; }
 
   .col-WQHD-offset-2 {
-    width: 16.66667%;
+    width: 16.6666666667%;
     float: left; }
 
   .col-WQHD-offset-3 {
@@ -1186,11 +1186,11 @@ Format-System
     float: left; }
 
   .col-WQHD-offset-4 {
-    width: 33.33333%;
+    width: 33.3333333333%;
     float: left; }
 
   .col-WQHD-offset-5 {
-    width: 41.66667%;
+    width: 41.6666666667%;
     float: left; }
 
   .col-WQHD-offset-6 {
@@ -1198,11 +1198,11 @@ Format-System
     float: left; }
 
   .col-WQHD-offset-7 {
-    width: 58.33333%;
+    width: 58.3333333333%;
     float: left; }
 
   .col-WQHD-offset-8 {
-    width: 66.66667%;
+    width: 66.6666666667%;
     float: left; }
 
   .col-WQHD-offset-9 {
@@ -1210,11 +1210,11 @@ Format-System
     float: left; }
 
   .col-WQHD-offset-10 {
-    width: 83.33333%;
+    width: 83.3333333333%;
     float: left; }
 
   .col-WQHD-offset-11 {
-    width: 91.66667%;
+    width: 91.6666666667%;
     float: left; }
 
   .col-WQHD-offset-12 {

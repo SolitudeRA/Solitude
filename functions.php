@@ -2,9 +2,10 @@
 
 function galaxy_setup() {
     add_theme_support( "custom-logo", array(
-        "width"      => 250,
-        "height"     => 250,
-        "flex-width" => true
+        "width"       => 250,
+        "height"      => 250,
+        "flex-height" => true,
+        "flex-width"  => true
     ) );
     
     add_theme_support( "custom-background", array(
@@ -43,6 +44,9 @@ function galaxy_setup() {
     add_theme_support( "post-thumbnails" );
     //Add post thumbnails sizes
     add_image_size( "full-size", 9999, 9999 );
+    
+    //Loads the theme's translated strings
+    load_theme_textdomain( "galaxy-domain", get_template_directory() . "/languages" );
 }
 
 add_action( "after_setup_theme", "galaxy_setup" );
@@ -72,9 +76,9 @@ add_action( "wp_enqueue_scripts", "galaxy_scripts" );
 
 function galaxy_widgets_init() {
     register_sidebar( array(
-        "name"          => __( "Sidebar left", "Galaxy" ),
-        "id"            => "sidebar-1",
-        "description"   => __( "Add widgets here to appear in your left sidebar.", "Galaxy" ),
+        "name"          => __( "Sidebar left", "galaxy-domain" ),
+        "id"            => "sidebar-left",
+        "description"   => __( "Add widgets here to appear in your left sidebar.", "galaxy-domain" ),
         "class"         => "",
         "before_widget" => "<li class='widget'>",
         "after_widget"  => "</li>",
@@ -83,9 +87,9 @@ function galaxy_widgets_init() {
     ) );
     
     register_sidebar( array(
-        "name"          => __( "Sidebar right", "Galaxy" ),
-        "id"            => "sidebar-2",
-        "description"   => __( "Add widgets here to appear in your right sidebar.", "Galaxy" ),
+        "name"          => __( "Sidebar right", "galaxy-domain" ),
+        "id"            => "sidebar-right",
+        "description"   => __( "Add widgets here to appear in your right sidebar.", "galaxy-domain" ),
         "class"         => "",
         "before_widget" => "<li class='widget'>",
         "after_widget"  => "</li>",
@@ -94,9 +98,20 @@ function galaxy_widgets_init() {
     ) );
     
     register_sidebar( array(
-        "name"          => __( "Footer", "Galaxy" ),
-        "id"            => "sidebar-3",
-        "description"   => __( "Add widgets here to appear in your footer.", "Galaxy" ),
+        "name"          => __( "Sidebar header", "galaxy-domain" ),
+        "id"            => "sidebar-header",
+        "description"   => __( "Add widgets here to appear in your header.", "galaxy-domain" ),
+        "class"         => "",
+        "before_widget" => "<li class='widget'>",
+        "after_widget"  => "</li>",
+        "before_title"  => "<h2 class='galaxy-widget-title'>",
+        "after_title"   => "</h2>"
+    ) );
+    
+    register_sidebar( array(
+        "name"          => __( "Sidebar footer", "galaxy-domain" ),
+        "id"            => "sidebar-footer",
+        "description"   => __( "Add widgets here to appear in your footer.", "galaxy-domain" ),
         "class"         => "",
         "before_widget" => "<li class='widget'>",
         "after_widget"  => "</li>",
