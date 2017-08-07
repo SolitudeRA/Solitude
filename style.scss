@@ -11,12 +11,15 @@ Tags: black , responsive
 Text Domain: galaxy-domain
 */
 
-$width-iPad : 768px;
-$width-iPadPro : 1024px;
-$width-laptop : 1366px;
-$width-fhd : 1920px;
-$width-WQHD : 2560px;
+@import "variables";
+@import "format";
+@import "fonts";
 
+/*========================================
+
+Index page
+
+========================================*/
 .galaxy-posts-container {
 
 }
@@ -39,140 +42,6 @@ $width-WQHD : 2560px;
 
 /*========================================
 
-Format-Container
+Post page
 
 ========================================*/
-.container-full {
-  width         : 100%;
-  padding-left  : 15px;
-  padding-right : 15px;
-}
-
-.container, .container-mid {
-  width         : 100%;
-  padding-left  : 15px;
-  padding-right : 15px;
-  margin-left   : auto;
-  margin-right  : auto;
-}
-
-.container {
-  @media (min-width : $width-iPad) {
-    width : 750px;
-  }
-  @media (min-width : $width-iPadPro) {
-    width : 970px;
-  }
-  @media (min-width : $width-laptop) {
-    width : 1170px;
-  }
-  @media (min-width : $width-fhd) {
-    width : 1700px;
-  }
-  @media (min-width : $width-WQHD) {
-    width : 2400px;
-  }
-}
-
-.container-mid {
-  @media (min-width : $width-iPad) {
-    width : 600px;
-  }
-  @media (min-width : $width-iPadPro) {
-    width : 700px;
-  }
-  @media (min-width : $width-laptop) {
-    width : 800px;
-  }
-  @media (min-width : $width-fhd) {
-    width : 1100px;
-  }
-  @media (min-width : $width-WQHD) {
-    width : 1400px;
-  }
-}
-
-.row {
-  margin-left  : -15px;
-  margin-right : -15px;
-}
-
-/*========================================
-
-Format-System
-
-========================================*/
-@each $format-name, $format-width in ("common", 0), ("iPad", $width-iPad), ("iPadPro", $width-iPadPro), ("laptop", $width-laptop), ("fhd", $width-fhd), ("WQHD", $width-WQHD) {
-  @media (min-width : $format-width) {
-    @each $tool in "", -pull, -push, -offset {
-      @for $i from 1 through 12 {
-        .col-#{$format-name}#{$tool}-#{$i} {
-          width : (100%/12) * $i;
-          float : left;
-        }
-      }
-    }
-  }
-}
-
-/*========================================
-
-Format-Tools
-
-========================================*/
-.center-block {
-  display      : block;
-  margin-left  : auto;
-  margin-right : auto;
-}
-
-.vertical-center-inline {
-  display : inline;
-}
-
-.vertical-center-block {
-  display : block;
-}
-
-.hidden {
-  display : none;
-}
-
-.show {
-  display : block;
-}
-
-@each $hidden-media, $hidden-name in (0, "common"), ($width-iPad, "iPad"), ($width-iPadPro, "iPadPro"), ($width-laptop, "laptop"), ($width-fhd, "fhd"), ($width-WQHD, "WQHD") {
-  @media (min-width : $hidden-media) {
-    .hidden-#{$hidden-name} {
-      display : none !important;
-    }
-    .hidden-#{$hidden-name}-inline {
-      display : inline !important;
-    }
-    .hidden-#{$hidden-name}-block {
-      display : block !important;
-    }
-    .hidden-#{$hidden-name}-inline-block {
-      display : inline-block !important;
-    }
-  }
-}
-
-@media print {
-  .hidden-print {
-    display : none !important;
-  }
-
-  .visible-print-inline {
-    display : none !important;
-  }
-
-  .visible-print-block {
-    display : none !important;
-  }
-
-  .visible-print-inline-block {
-    display : none !important;
-  }
-}
