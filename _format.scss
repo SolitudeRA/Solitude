@@ -2,7 +2,7 @@
 
 /*========================================
 
-Format container
+#Format container
 
 ========================================*/
 .container-full {
@@ -11,7 +11,7 @@ Format container
   padding-right : 15px;
 }
 
-.container, .container-mid {
+.container, .container-half {
   width         : 100%;
   padding-left  : 15px;
   padding-right : 15px;
@@ -37,7 +37,7 @@ Format container
   }
 }
 
-.container-mid {
+.container-half {
   @media (min-width : $width-iPad) {
     width : 600px;
   }
@@ -62,7 +62,7 @@ Format container
 
 /*========================================
 
-Format system
+#Format system
 
 ========================================*/
 //Generate format system
@@ -95,7 +95,7 @@ Format system
 
 /*========================================
 
-Format tools
+#Format tools
 
 ========================================*/
 .text-center {

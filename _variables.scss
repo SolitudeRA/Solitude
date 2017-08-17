@@ -1,6 +1,6 @@
 //========================================
 //
-//  Devices width variables
+//  #Devices width variables
 //
 //========================================
 $width-iPad : 768px;
@@ -11,7 +11,25 @@ $width-wqhd : 2560px;
 
 //========================================
 //
-//  Color variables
+//  #Unicode range variables
+//
+//========================================
+
+$unicode-range-CN : U+4E00-62FF, U+6300-77FF, U+7800-8CFF, U+8D00-9FCC, U+3400-4DB5, U+20000-215FF, U+21600-230FF, U+23100-245FF, U+24600-260FF, U+26100-275FF, U+27600-290FF, U+29100-2A6DF, U+2A700-2B734, U+2B740-2B81D;
+$unicode-range-JP : U+3000-303F, U+3040-309F, U+30A0-30FF, U+FF00-FFEF, U+4E00-9FAF;
+$unicode-range-EN : U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+
+//========================================
+//
+//  #Font family variables
+//
+//========================================
+
+$font-family-global : "'Noto Sans SC', 'Noto Sans JP', 'Noto Sans', 'Microsoft Yahei', 'PingFang', 'MS Mincho', 'Hiragino Sans', 'Helvetica Neue', 'sans-serif'";
+
+//========================================
+//
+//  #Color variables
 //
 //========================================
 $Color-Red-50 : #FFEBEE;

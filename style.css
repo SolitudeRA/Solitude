@@ -12,7 +12,7 @@ Text Domain: galaxy-domain
 */
 /*========================================
 
-Format container
+#Format container
 
 ========================================*/
 .container-full {
@@ -20,7 +20,7 @@ Format container
   padding-left: 15px;
   padding-right: 15px; }
 
-.container, .container-mid {
+.container, .container-half {
   width: 100%;
   padding-left: 15px;
   padding-right: 15px;
@@ -44,19 +44,19 @@ Format container
     width: 2400px; } }
 
 @media (min-width: 768px) {
-  .container-mid {
+  .container-half {
     width: 600px; } }
 @media (min-width: 1024px) {
-  .container-mid {
+  .container-half {
     width: 700px; } }
 @media (min-width: 1366px) {
-  .container-mid {
+  .container-half {
     width: 800px; } }
 @media (min-width: 1920px) {
-  .container-mid {
+  .container-half {
     width: 1100px; } }
 @media (min-width: 2560px) {
-  .container-mid {
+  .container-half {
     width: 1400px; } }
 
 .row {
@@ -65,7 +65,7 @@ Format container
 
 /*========================================
 
-Format system
+#Format system
 
 ========================================*/
 @media (min-width: 0) {
@@ -1214,7 +1214,7 @@ Format system
 
 /*========================================
 
-Format tools
+#Format tools
 
 ========================================*/
 .text-center {
@@ -1317,7 +1317,7 @@ Format tools
     display: none !important; } }
 /*========================================
 
-Noto sans SC
+#Noto sans SC
 
 ========================================*/
 @font-face {
@@ -1358,7 +1358,7 @@ Noto sans SC
   unicode-range: U+4E00-62FF, U+6300-77FF, U+7800-8CFF, U+8D00-9FCC, U+3400-4DB5, U+20000-215FF, U+21600-230FF, U+23100-245FF, U+24600-260FF, U+26100-275FF, U+27600-290FF, U+29100-2A6DF, U+2A700-2B734, U+2B740-2B81D; }
 /*========================================
 
-Noto sans JP
+#Noto sans JP
 
 ========================================*/
 @font-face {
@@ -1399,7 +1399,7 @@ Noto sans JP
   unicode-range: U+3000-303F, U+3040-309F, U+30A0-30FF, U+FF00-FFEF, U+4E00-9FAF; }
 /*========================================
 
-Noto sans EN
+#Noto sans EN
 
 ========================================*/
 /* cyrillic-ext */
@@ -1500,6 +1500,121 @@ Noto sans EN
   font-weight: 700;
   src: local("Noto Sans Bold"), local("NotoSans-Bold"), url(https://fonts.gstatic.com/s/notosans/v6/PIbvSEyHEdL91QLOQRnZ1xampu5_7CjHW5spxoeN3Vs.woff2) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
+/*========================================
+
+#PingFang SC
+
+========================================*/
+@font-face {
+  font-family: "PingFang";
+  font-style: normal;
+  font-weight: 400;
+  src: local("PingFangSC-Regular");
+  unicode-range: U+4E00-62FF, U+6300-77FF, U+7800-8CFF, U+8D00-9FCC, U+3400-4DB5, U+20000-215FF, U+21600-230FF, U+23100-245FF, U+24600-260FF, U+26100-275FF, U+27600-290FF, U+29100-2A6DF, U+2A700-2B734, U+2B740-2B81D; }
+@font-face {
+  font-family: "PingFang";
+  font-style: normal;
+  font-weight: 700;
+  src: local("PingFangSC-Semibold");
+  unicode-range: U+4E00-62FF, U+6300-77FF, U+7800-8CFF, U+8D00-9FCC, U+3400-4DB5, U+20000-215FF, U+21600-230FF, U+23100-245FF, U+24600-260FF, U+26100-275FF, U+27600-290FF, U+29100-2A6DF, U+2A700-2B734, U+2B740-2B81D; }
+/*========================================
+
+#Helvetica Neue
+
+========================================*/
+@font-face {
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 100;
+  src: local("HelveticaNeue-UltraLight");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+@font-face {
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 200;
+  src: local("HelveticaNeue-Thin");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+@font-face {
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 300;
+  src: local("HelveticaNeue-Light");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+@font-face {
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 400;
+  src: local("HelveticaNeue");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+@font-face {
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 500;
+  src: local("HelveticaNeue-Medium");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+@font-face {
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 700;
+  src: local("HelveticaNeue-Bold");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+/*========================================
+
+#MS Mincho
+
+========================================*/
+@font-face {
+  font-family: 'MS Mincho';
+  font-style: normal;
+  src: local("MS Mincho");
+  unicode-range: U+3000-303F, U+3040-309F, U+30A0-30FF, U+FF00-FFEF, U+4E00-9FAF; }
+/*========================================
+
+#Hiragino Sans
+
+========================================*/
+@font-face {
+  font-family: 'Hiragino Sans';
+  font-style: normal;
+  font-weight: 100;
+  src: local("HiraginoSans-W1");
+  unicode-range: U+3000-303F, U+3040-309F, U+30A0-30FF, U+FF00-FFEF, U+4E00-9FAF; }
+@font-face {
+  font-family: 'Hiragino Sans';
+  font-style: normal;
+  font-weight: 200;
+  src: local("HiraginoSans-W2");
+  unicode-range: U+3000-303F, U+3040-309F, U+30A0-30FF, U+FF00-FFEF, U+4E00-9FAF; }
+@font-face {
+  font-family: 'Hiragino Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local("HiraginoSans-W3");
+  unicode-range: U+3000-303F, U+3040-309F, U+30A0-30FF, U+FF00-FFEF, U+4E00-9FAF; }
+@font-face {
+  font-family: 'Hiragino Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("HiraginoSans-W4");
+  unicode-range: U+3000-303F, U+3040-309F, U+30A0-30FF, U+FF00-FFEF, U+4E00-9FAF; }
+@font-face {
+  font-family: 'Hiragino Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local("HiraginoSans-W5");
+  unicode-range: U+3000-303F, U+3040-309F, U+30A0-30FF, U+FF00-FFEF, U+4E00-9FAF; }
+@font-face {
+  font-family: 'Hiragino Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local("HiraginoSans-W6");
+  unicode-range: U+3000-303F, U+3040-309F, U+30A0-30FF, U+FF00-FFEF, U+4E00-9FAF; }
+@font-face {
+  font-family: 'Hiragino Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local("HiraginoSans-W7");
+  unicode-range: U+3000-303F, U+3040-309F, U+30A0-30FF, U+FF00-FFEF, U+4E00-9FAF; }
 /*========================================
 
 Index page
