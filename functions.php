@@ -112,3 +112,11 @@
     }
 
     add_action("widgets_init", "galaxy_widgets_init");
+
+    function galaxy_customize_register($wp_customize) {
+        $wp_customize -> add_section("color_theme_section", array(
+            'title' => __('Color theme', "galaxy-domain")
+        ));
+    }
+
+    add_action("customise_register", "galaxy_customise_register");

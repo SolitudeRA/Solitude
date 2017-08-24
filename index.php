@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div class="container-full">
-    <?php get_sidebar(); ?>
+    <?php get_sidebar("left"); ?>
 
     <div class="posts-container">
         <?php if(have_posts()) :
@@ -24,6 +24,7 @@
         endif;
         ?>
     </div>
+
 </div>
 <?php get_footer(); ?>
 
