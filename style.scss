@@ -19,41 +19,47 @@ Text Domain: galaxy-domain
 Index page
 
 ========================================*/
-.posts_container {
-  .post {
-    .post_header {
-      .post-thumbnail {
+.posts_container{
+  font-family : $font-family-global;
+  .post{
+    .post_header{
+      .post-thumbnail{
 
       }
-      .post_title {
+      .post_title_container{
+        .post_title_single{
 
+        }
+        .post_title_index{
+
+        }
       }
-      .post_meta {
-        .post_meta_time {
+      .post_meta_container{
+        .post_meta_time{
 
         }
-        .post_meta_cat {
+        .post_meta_cat{
 
         }
-        .post_meta_tags {
+        .post_meta_tags{
 
         }
-        .post_meta_edit {
+        .post_meta_edit{
 
         }
       }
     }
-    .post_content {
+    .post_content{
 
     }
   }
 }
 
-.galaxy_widget_title {
+.galaxy_widget_title{
 
 }
 
-.galaxy_footer {
+.galaxy_footer{
 
 }
 

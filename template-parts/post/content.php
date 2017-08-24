@@ -1,19 +1,19 @@
-<article id="post-<?php the_ID(); ?>" <?php post_class("row container-full col-iPad-12 col-iPadPro-12 col-laptop-12 col-fhd-12 col-wqhd-12", null); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class("container-full", null); ?>>
 
     <header class="post_header">
-        <?php if ("" !== get_the_post_thumbnail() && !is_single()): ?>
-            <div class="post-thumbnail">
+        <?php if("" !== get_the_post_thumbnail()): ?>
+            <div class="row post-thumbnail">
                 <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(""); ?></a>
             </div><!-- Post thumbnail -->
         <?php endif; ?>
-        <div class="post_title">
-            <?php if (is_single()):
-                the_title(null, null);
+        <div class="row post_title_container">
+            <?php if(is_single()):
+                the_title("<div class='post_title_single'>", "</div>");
             else:
-                the_title(null, null);
+                the_title("<div class='post_title_index'>", "</div>");
             endif; ?>
         </div>
-        <div class="post_meta">
+        <div class="row post_meta_container">
             <section class="post_meta_time">
                 <h4><?php _e("Time posted:", "galaxy-domain") ?></h4>
                 <?php the_date("Y F j"); ?>  <?php the_time("g:i a"); ?>
@@ -32,7 +32,7 @@
         </div>
     </header>
 
-    <div class="post_content">
+    <div class="row post_content">
         <?php the_content(sprintf(__("Read more...", "galaxy-domain"), get_the_title())); ?>
     </div>
 

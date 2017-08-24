@@ -1620,6 +1620,9 @@ Text Domain: galaxy-domain
 Index page
 
 ========================================*/
+.posts_container {
+  font-family: "'Noto Sans SC', 'Noto Sans JP', 'Noto Sans', 'Microsoft Yahei', 'PingFang', 'MS Mincho', 'Hiragino Sans', 'Helvetica Neue', 'sans-serif'"; }
+
 /*========================================
 
 Post page
