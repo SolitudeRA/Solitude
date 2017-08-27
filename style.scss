@@ -14,52 +14,57 @@ Text Domain: galaxy-domain
 @import "format";
 @import "fonts";
 
+body{
+  background-color : $galaxy-background;
+}
+
 /*========================================
 
 Index page
 
 ========================================*/
-.posts_container{
+.posts-container{
+  height      : fit-content;
   font-family : $font-family-global;
   .post{
-    .post_header{
+    color : #ABB2BE;
+    .post-header{
       .post-thumbnail{
 
       }
-      .post_title_container{
-        .post_title_single{
+      .post-title-container{
+        .post-title-single{
 
         }
-        .post_title_index{
+        .post-title-index{
 
         }
       }
-      .post_meta_container{
-        .post_meta_time{
+      .post-meta-container{
+        .post-meta-time{
 
         }
-        .post_meta_cat{
+        .post-meta-cat{
 
         }
-        .post_meta_tags{
+        .post-meta-tags{
 
         }
-        .post_meta_edit{
+        .post-meta-edit{
 
         }
       }
     }
-    .post_content{
-
+    .post-content{
     }
   }
 }
 
-.galaxy_widget_title{
+.galaxy-widget-title{
 
 }
 
-.galaxy_footer{
+.galaxy-footer{
 
 }
 
