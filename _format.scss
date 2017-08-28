@@ -1,6 +1,10 @@
 @import "variables";
 @import "functions";
 
+*, *::before, ::after{
+  box-sizing : inherit;
+}
+
 /*========================================
 
 #Format container
@@ -80,12 +84,16 @@
   }
 }
 
-//Generate expands for Full HD and WQHD
-@each $format-suffix in "", -pull, -push, -offset{
-  @for $i from 1 through 16{
-    .col-wqhd#{$format-suffix}-#{$i}{
-      position : relative;
-      @include format_suffix_loop($format-suffix, $i);
+//Generate expand columns for FullHD and WQHD
+@each $format-prefix, $format-width in ("fhd", $width-fhd), ("wqhd", $width-wqhd){
+  @media (min-width : $format-width){
+    @each $format-suffix in "", -pull-expand, -push-expand, -offset-expand{
+      @for $i from 1 through 16{
+        .col-#{$format-prefix}#{$format-suffix}-#{$i}{
+          position : relative;
+          @include format_suffix_loop($format-suffix, $i);
+        }
+      }
     }
   }
 }
