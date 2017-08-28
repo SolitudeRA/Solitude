@@ -13,6 +13,7 @@ Text Domain: galaxy-domain
 @import "variables";
 @import "format";
 @import "fonts";
+@import "content";
 
 body{
   background-color : $galaxy-background;
@@ -24,8 +25,7 @@ Index page
 
 ========================================*/
 .posts-container{
-  height      : fit-content;
-  font-family : $font-family-global;
+  height : fit-content;
   .post{
     color : #ABB2BE;
     .post-header{
@@ -56,6 +56,7 @@ Index page
       }
     }
     .post-content{
+
     }
   }
 }

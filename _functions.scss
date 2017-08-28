@@ -1,0 +1,15 @@
+@mixin format_suffix_loop($format-suffix,$i){
+  @if $format-suffix == ""{
+    width : (100%/12) * $i;
+    float : left;
+  }
+  @if $format-suffix == "-pull"{
+    right : (100%/12) * $i;
+  }
+  @if $format-suffix == "-push"{
+    left : (100%/12) * $i;
+  }
+  @if $format-suffix == "-offset"{
+    margin-left : (100%/12) * $i;
+  }
+}

@@ -1,6 +1,6 @@
 //========================================
 //
-//  #Devices width variables
+//  #Break points variables
 //
 //========================================
 $width-iPad : 768px;
@@ -8,6 +8,20 @@ $width-iPadPro : 1024px;
 $width-laptop : 1366px;
 $width-fhd : 1920px;
 $width-wqhd : 2560px;
+
+//========================================
+//
+//  #Layer variables
+//
+//========================================
+$layer-dropdown-backdrop : 500;
+$layer-dropdown : 550;
+$layer-fixed : 600;
+$layer-sticky : 650;
+$layer-modal-backdrop : 700;
+$layer-modal : 750;
+$layer-popover : 800;
+$layer-tooltip : 850;
 
 //========================================
 //
