@@ -74,12 +74,12 @@ Text Domain: galaxy-domain
 @media (min-width: 0) {
   .col-common-1 {
     position: relative;
-    width: 8.3333333333%;
+    width: 8.33333%;
     float: left; }
 
   .col-common-2 {
     position: relative;
-    width: 16.6666666667%;
+    width: 16.66667%;
     float: left; }
 
   .col-common-3 {
@@ -89,12 +89,12 @@ Text Domain: galaxy-domain
 
   .col-common-4 {
     position: relative;
-    width: 33.3333333333%;
+    width: 33.33333%;
     float: left; }
 
   .col-common-5 {
     position: relative;
-    width: 41.6666666667%;
+    width: 41.66667%;
     float: left; }
 
   .col-common-6 {
@@ -104,12 +104,12 @@ Text Domain: galaxy-domain
 
   .col-common-7 {
     position: relative;
-    width: 58.3333333333%;
+    width: 58.33333%;
     float: left; }
 
   .col-common-8 {
     position: relative;
-    width: 66.6666666667%;
+    width: 66.66667%;
     float: left; }
 
   .col-common-9 {
@@ -119,12 +119,12 @@ Text Domain: galaxy-domain
 
   .col-common-10 {
     position: relative;
-    width: 83.3333333333%;
+    width: 83.33333%;
     float: left; }
 
   .col-common-11 {
     position: relative;
-    width: 91.6666666667%;
+    width: 91.66667%;
     float: left; }
 
   .col-common-12 {
@@ -134,11 +134,11 @@ Text Domain: galaxy-domain
 
   .col-common-pull-1 {
     position: relative;
-    right: 8.3333333333%; }
+    right: 8.33333%; }
 
   .col-common-pull-2 {
     position: relative;
-    right: 16.6666666667%; }
+    right: 16.66667%; }
 
   .col-common-pull-3 {
     position: relative;
@@ -146,11 +146,11 @@ Text Domain: galaxy-domain
 
   .col-common-pull-4 {
     position: relative;
-    right: 33.3333333333%; }
+    right: 33.33333%; }
 
   .col-common-pull-5 {
     position: relative;
-    right: 41.6666666667%; }
+    right: 41.66667%; }
 
   .col-common-pull-6 {
     position: relative;
@@ -158,11 +158,11 @@ Text Domain: galaxy-domain
 
   .col-common-pull-7 {
     position: relative;
-    right: 58.3333333333%; }
+    right: 58.33333%; }
 
   .col-common-pull-8 {
     position: relative;
-    right: 66.6666666667%; }
+    right: 66.66667%; }
 
   .col-common-pull-9 {
     position: relative;
@@ -170,11 +170,11 @@ Text Domain: galaxy-domain
 
   .col-common-pull-10 {
     position: relative;
-    right: 83.3333333333%; }
+    right: 83.33333%; }
 
   .col-common-pull-11 {
     position: relative;
-    right: 91.6666666667%; }
+    right: 91.66667%; }
 
   .col-common-pull-12 {
     position: relative;
@@ -182,11 +182,11 @@ Text Domain: galaxy-domain
 
   .col-common-push-1 {
     position: relative;
-    left: 8.3333333333%; }
+    left: 8.33333%; }
 
   .col-common-push-2 {
     position: relative;
-    left: 16.6666666667%; }
+    left: 16.66667%; }
 
   .col-common-push-3 {
     position: relative;
@@ -194,11 +194,11 @@ Text Domain: galaxy-domain
 
   .col-common-push-4 {
     position: relative;
-    left: 33.3333333333%; }
+    left: 33.33333%; }
 
   .col-common-push-5 {
     position: relative;
-    left: 41.6666666667%; }
+    left: 41.66667%; }
 
   .col-common-push-6 {
     position: relative;
@@ -206,11 +206,11 @@ Text Domain: galaxy-domain
 
   .col-common-push-7 {
     position: relative;
-    left: 58.3333333333%; }
+    left: 58.33333%; }
 
   .col-common-push-8 {
     position: relative;
-    left: 66.6666666667%; }
+    left: 66.66667%; }
 
   .col-common-push-9 {
     position: relative;
@@ -218,11 +218,11 @@ Text Domain: galaxy-domain
 
   .col-common-push-10 {
     position: relative;
-    left: 83.3333333333%; }
+    left: 83.33333%; }
 
   .col-common-push-11 {
     position: relative;
-    left: 91.6666666667%; }
+    left: 91.66667%; }
 
   .col-common-push-12 {
     position: relative;
@@ -230,11 +230,11 @@ Text Domain: galaxy-domain
 
   .col-common-offset-1 {
     position: relative;
-    margin-left: 8.3333333333%; }
+    margin-left: 8.33333%; }
 
   .col-common-offset-2 {
     position: relative;
-    margin-left: 16.6666666667%; }
+    margin-left: 16.66667%; }
 
   .col-common-offset-3 {
     position: relative;
@@ -242,11 +242,11 @@ Text Domain: galaxy-domain
 
   .col-common-offset-4 {
     position: relative;
-    margin-left: 33.3333333333%; }
+    margin-left: 33.33333%; }
 
   .col-common-offset-5 {
     position: relative;
-    margin-left: 41.6666666667%; }
+    margin-left: 41.66667%; }
 
   .col-common-offset-6 {
     position: relative;
@@ -254,11 +254,11 @@ Text Domain: galaxy-domain
 
   .col-common-offset-7 {
     position: relative;
-    margin-left: 58.3333333333%; }
+    margin-left: 58.33333%; }
 
   .col-common-offset-8 {
     position: relative;
-    margin-left: 66.6666666667%; }
+    margin-left: 66.66667%; }
 
   .col-common-offset-9 {
     position: relative;
@@ -266,11 +266,11 @@ Text Domain: galaxy-domain
 
   .col-common-offset-10 {
     position: relative;
-    margin-left: 83.3333333333%; }
+    margin-left: 83.33333%; }
 
   .col-common-offset-11 {
     position: relative;
-    margin-left: 91.6666666667%; }
+    margin-left: 91.66667%; }
 
   .col-common-offset-12 {
     position: relative;
@@ -278,12 +278,12 @@ Text Domain: galaxy-domain
 @media (min-width: 768px) {
   .col-iPad-1 {
     position: relative;
-    width: 8.3333333333%;
+    width: 8.33333%;
     float: left; }
 
   .col-iPad-2 {
     position: relative;
-    width: 16.6666666667%;
+    width: 16.66667%;
     float: left; }
 
   .col-iPad-3 {
@@ -293,12 +293,12 @@ Text Domain: galaxy-domain
 
   .col-iPad-4 {
     position: relative;
-    width: 33.3333333333%;
+    width: 33.33333%;
     float: left; }
 
   .col-iPad-5 {
     position: relative;
-    width: 41.6666666667%;
+    width: 41.66667%;
     float: left; }
 
   .col-iPad-6 {
@@ -308,12 +308,12 @@ Text Domain: galaxy-domain
 
   .col-iPad-7 {
     position: relative;
-    width: 58.3333333333%;
+    width: 58.33333%;
     float: left; }
 
   .col-iPad-8 {
     position: relative;
-    width: 66.6666666667%;
+    width: 66.66667%;
     float: left; }
 
   .col-iPad-9 {
@@ -323,12 +323,12 @@ Text Domain: galaxy-domain
 
   .col-iPad-10 {
     position: relative;
-    width: 83.3333333333%;
+    width: 83.33333%;
     float: left; }
 
   .col-iPad-11 {
     position: relative;
-    width: 91.6666666667%;
+    width: 91.66667%;
     float: left; }
 
   .col-iPad-12 {
@@ -338,11 +338,11 @@ Text Domain: galaxy-domain
 
   .col-iPad-pull-1 {
     position: relative;
-    right: 8.3333333333%; }
+    right: 8.33333%; }
 
   .col-iPad-pull-2 {
     position: relative;
-    right: 16.6666666667%; }
+    right: 16.66667%; }
 
   .col-iPad-pull-3 {
     position: relative;
@@ -350,11 +350,11 @@ Text Domain: galaxy-domain
 
   .col-iPad-pull-4 {
     position: relative;
-    right: 33.3333333333%; }
+    right: 33.33333%; }
 
   .col-iPad-pull-5 {
     position: relative;
-    right: 41.6666666667%; }
+    right: 41.66667%; }
 
   .col-iPad-pull-6 {
     position: relative;
@@ -362,11 +362,11 @@ Text Domain: galaxy-domain
 
   .col-iPad-pull-7 {
     position: relative;
-    right: 58.3333333333%; }
+    right: 58.33333%; }
 
   .col-iPad-pull-8 {
     position: relative;
-    right: 66.6666666667%; }
+    right: 66.66667%; }
 
   .col-iPad-pull-9 {
     position: relative;
@@ -374,11 +374,11 @@ Text Domain: galaxy-domain
 
   .col-iPad-pull-10 {
     position: relative;
-    right: 83.3333333333%; }
+    right: 83.33333%; }
 
   .col-iPad-pull-11 {
     position: relative;
-    right: 91.6666666667%; }
+    right: 91.66667%; }
 
   .col-iPad-pull-12 {
     position: relative;
@@ -386,11 +386,11 @@ Text Domain: galaxy-domain
 
   .col-iPad-push-1 {
     position: relative;
-    left: 8.3333333333%; }
+    left: 8.33333%; }
 
   .col-iPad-push-2 {
     position: relative;
-    left: 16.6666666667%; }
+    left: 16.66667%; }
 
   .col-iPad-push-3 {
     position: relative;
@@ -398,11 +398,11 @@ Text Domain: galaxy-domain
 
   .col-iPad-push-4 {
     position: relative;
-    left: 33.3333333333%; }
+    left: 33.33333%; }
 
   .col-iPad-push-5 {
     position: relative;
-    left: 41.6666666667%; }
+    left: 41.66667%; }
 
   .col-iPad-push-6 {
     position: relative;
@@ -410,11 +410,11 @@ Text Domain: galaxy-domain
 
   .col-iPad-push-7 {
     position: relative;
-    left: 58.3333333333%; }
+    left: 58.33333%; }
 
   .col-iPad-push-8 {
     position: relative;
-    left: 66.6666666667%; }
+    left: 66.66667%; }
 
   .col-iPad-push-9 {
     position: relative;
@@ -422,11 +422,11 @@ Text Domain: galaxy-domain
 
   .col-iPad-push-10 {
     position: relative;
-    left: 83.3333333333%; }
+    left: 83.33333%; }
 
   .col-iPad-push-11 {
     position: relative;
-    left: 91.6666666667%; }
+    left: 91.66667%; }
 
   .col-iPad-push-12 {
     position: relative;
@@ -434,11 +434,11 @@ Text Domain: galaxy-domain
 
   .col-iPad-offset-1 {
     position: relative;
-    margin-left: 8.3333333333%; }
+    margin-left: 8.33333%; }
 
   .col-iPad-offset-2 {
     position: relative;
-    margin-left: 16.6666666667%; }
+    margin-left: 16.66667%; }
 
   .col-iPad-offset-3 {
     position: relative;
@@ -446,11 +446,11 @@ Text Domain: galaxy-domain
 
   .col-iPad-offset-4 {
     position: relative;
-    margin-left: 33.3333333333%; }
+    margin-left: 33.33333%; }
 
   .col-iPad-offset-5 {
     position: relative;
-    margin-left: 41.6666666667%; }
+    margin-left: 41.66667%; }
 
   .col-iPad-offset-6 {
     position: relative;
@@ -458,11 +458,11 @@ Text Domain: galaxy-domain
 
   .col-iPad-offset-7 {
     position: relative;
-    margin-left: 58.3333333333%; }
+    margin-left: 58.33333%; }
 
   .col-iPad-offset-8 {
     position: relative;
-    margin-left: 66.6666666667%; }
+    margin-left: 66.66667%; }
 
   .col-iPad-offset-9 {
     position: relative;
@@ -470,11 +470,11 @@ Text Domain: galaxy-domain
 
   .col-iPad-offset-10 {
     position: relative;
-    margin-left: 83.3333333333%; }
+    margin-left: 83.33333%; }
 
   .col-iPad-offset-11 {
     position: relative;
-    margin-left: 91.6666666667%; }
+    margin-left: 91.66667%; }
 
   .col-iPad-offset-12 {
     position: relative;
@@ -482,12 +482,12 @@ Text Domain: galaxy-domain
 @media (min-width: 1024px) {
   .col-iPadPro-1 {
     position: relative;
-    width: 8.3333333333%;
+    width: 8.33333%;
     float: left; }
 
   .col-iPadPro-2 {
     position: relative;
-    width: 16.6666666667%;
+    width: 16.66667%;
     float: left; }
 
   .col-iPadPro-3 {
@@ -497,12 +497,12 @@ Text Domain: galaxy-domain
 
   .col-iPadPro-4 {
     position: relative;
-    width: 33.3333333333%;
+    width: 33.33333%;
     float: left; }
 
   .col-iPadPro-5 {
     position: relative;
-    width: 41.6666666667%;
+    width: 41.66667%;
     float: left; }
 
   .col-iPadPro-6 {
@@ -512,12 +512,12 @@ Text Domain: galaxy-domain
 
   .col-iPadPro-7 {
     position: relative;
-    width: 58.3333333333%;
+    width: 58.33333%;
     float: left; }
 
   .col-iPadPro-8 {
     position: relative;
-    width: 66.6666666667%;
+    width: 66.66667%;
     float: left; }
 
   .col-iPadPro-9 {
@@ -527,12 +527,12 @@ Text Domain: galaxy-domain
 
   .col-iPadPro-10 {
     position: relative;
-    width: 83.3333333333%;
+    width: 83.33333%;
     float: left; }
 
   .col-iPadPro-11 {
     position: relative;
-    width: 91.6666666667%;
+    width: 91.66667%;
     float: left; }
 
   .col-iPadPro-12 {
@@ -542,11 +542,11 @@ Text Domain: galaxy-domain
 
   .col-iPadPro-pull-1 {
     position: relative;
-    right: 8.3333333333%; }
+    right: 8.33333%; }
 
   .col-iPadPro-pull-2 {
     position: relative;
-    right: 16.6666666667%; }
+    right: 16.66667%; }
 
   .col-iPadPro-pull-3 {
     position: relative;
@@ -554,11 +554,11 @@ Text Domain: galaxy-domain
 
   .col-iPadPro-pull-4 {
     position: relative;
-    right: 33.3333333333%; }
+    right: 33.33333%; }
 
   .col-iPadPro-pull-5 {
     position: relative;
-    right: 41.6666666667%; }
+    right: 41.66667%; }
 
   .col-iPadPro-pull-6 {
     position: relative;
@@ -566,11 +566,11 @@ Text Domain: galaxy-domain
 
   .col-iPadPro-pull-7 {
     position: relative;
-    right: 58.3333333333%; }
+    right: 58.33333%; }
 
   .col-iPadPro-pull-8 {
     position: relative;
-    right: 66.6666666667%; }
+    right: 66.66667%; }
 
   .col-iPadPro-pull-9 {
     position: relative;
@@ -578,11 +578,11 @@ Text Domain: galaxy-domain
 
   .col-iPadPro-pull-10 {
     position: relative;
-    right: 83.3333333333%; }
+    right: 83.33333%; }
 
   .col-iPadPro-pull-11 {
     position: relative;
-    right: 91.6666666667%; }
+    right: 91.66667%; }
 
   .col-iPadPro-pull-12 {
     position: relative;
@@ -590,11 +590,11 @@ Text Domain: galaxy-domain
 
   .col-iPadPro-push-1 {
     position: relative;
-    left: 8.3333333333%; }
+    left: 8.33333%; }
 
   .col-iPadPro-push-2 {
     position: relative;
-    left: 16.6666666667%; }
+    left: 16.66667%; }
 
   .col-iPadPro-push-3 {
     position: relative;
@@ -602,11 +602,11 @@ Text Domain: galaxy-domain
 
   .col-iPadPro-push-4 {
     position: relative;
-    left: 33.3333333333%; }
+    left: 33.33333%; }
 
   .col-iPadPro-push-5 {
     position: relative;
-    left: 41.6666666667%; }
+    left: 41.66667%; }
 
   .col-iPadPro-push-6 {
     position: relative;
@@ -614,11 +614,11 @@ Text Domain: galaxy-domain
 
   .col-iPadPro-push-7 {
     position: relative;
-    left: 58.3333333333%; }
+    left: 58.33333%; }
 
   .col-iPadPro-push-8 {
     position: relative;
-    left: 66.6666666667%; }
+    left: 66.66667%; }
 
   .col-iPadPro-push-9 {
     position: relative;
@@ -626,11 +626,11 @@ Text Domain: galaxy-domain
 
   .col-iPadPro-push-10 {
     position: relative;
-    left: 83.3333333333%; }
+    left: 83.33333%; }
 
   .col-iPadPro-push-11 {
     position: relative;
-    left: 91.6666666667%; }
+    left: 91.66667%; }
 
   .col-iPadPro-push-12 {
     position: relative;
@@ -638,11 +638,11 @@ Text Domain: galaxy-domain
 
   .col-iPadPro-offset-1 {
     position: relative;
-    margin-left: 8.3333333333%; }
+    margin-left: 8.33333%; }
 
   .col-iPadPro-offset-2 {
     position: relative;
-    margin-left: 16.6666666667%; }
+    margin-left: 16.66667%; }
 
   .col-iPadPro-offset-3 {
     position: relative;
@@ -650,11 +650,11 @@ Text Domain: galaxy-domain
 
   .col-iPadPro-offset-4 {
     position: relative;
-    margin-left: 33.3333333333%; }
+    margin-left: 33.33333%; }
 
   .col-iPadPro-offset-5 {
     position: relative;
-    margin-left: 41.6666666667%; }
+    margin-left: 41.66667%; }
 
   .col-iPadPro-offset-6 {
     position: relative;
@@ -662,11 +662,11 @@ Text Domain: galaxy-domain
 
   .col-iPadPro-offset-7 {
     position: relative;
-    margin-left: 58.3333333333%; }
+    margin-left: 58.33333%; }
 
   .col-iPadPro-offset-8 {
     position: relative;
-    margin-left: 66.6666666667%; }
+    margin-left: 66.66667%; }
 
   .col-iPadPro-offset-9 {
     position: relative;
@@ -674,11 +674,11 @@ Text Domain: galaxy-domain
 
   .col-iPadPro-offset-10 {
     position: relative;
-    margin-left: 83.3333333333%; }
+    margin-left: 83.33333%; }
 
   .col-iPadPro-offset-11 {
     position: relative;
-    margin-left: 91.6666666667%; }
+    margin-left: 91.66667%; }
 
   .col-iPadPro-offset-12 {
     position: relative;
@@ -686,12 +686,12 @@ Text Domain: galaxy-domain
 @media (min-width: 1366px) {
   .col-laptop-1 {
     position: relative;
-    width: 8.3333333333%;
+    width: 8.33333%;
     float: left; }
 
   .col-laptop-2 {
     position: relative;
-    width: 16.6666666667%;
+    width: 16.66667%;
     float: left; }
 
   .col-laptop-3 {
@@ -701,12 +701,12 @@ Text Domain: galaxy-domain
 
   .col-laptop-4 {
     position: relative;
-    width: 33.3333333333%;
+    width: 33.33333%;
     float: left; }
 
   .col-laptop-5 {
     position: relative;
-    width: 41.6666666667%;
+    width: 41.66667%;
     float: left; }
 
   .col-laptop-6 {
@@ -716,12 +716,12 @@ Text Domain: galaxy-domain
 
   .col-laptop-7 {
     position: relative;
-    width: 58.3333333333%;
+    width: 58.33333%;
     float: left; }
 
   .col-laptop-8 {
     position: relative;
-    width: 66.6666666667%;
+    width: 66.66667%;
     float: left; }
 
   .col-laptop-9 {
@@ -731,12 +731,12 @@ Text Domain: galaxy-domain
 
   .col-laptop-10 {
     position: relative;
-    width: 83.3333333333%;
+    width: 83.33333%;
     float: left; }
 
   .col-laptop-11 {
     position: relative;
-    width: 91.6666666667%;
+    width: 91.66667%;
     float: left; }
 
   .col-laptop-12 {
@@ -746,11 +746,11 @@ Text Domain: galaxy-domain
 
   .col-laptop-pull-1 {
     position: relative;
-    right: 8.3333333333%; }
+    right: 8.33333%; }
 
   .col-laptop-pull-2 {
     position: relative;
-    right: 16.6666666667%; }
+    right: 16.66667%; }
 
   .col-laptop-pull-3 {
     position: relative;
@@ -758,11 +758,11 @@ Text Domain: galaxy-domain
 
   .col-laptop-pull-4 {
     position: relative;
-    right: 33.3333333333%; }
+    right: 33.33333%; }
 
   .col-laptop-pull-5 {
     position: relative;
-    right: 41.6666666667%; }
+    right: 41.66667%; }
 
   .col-laptop-pull-6 {
     position: relative;
@@ -770,11 +770,11 @@ Text Domain: galaxy-domain
 
   .col-laptop-pull-7 {
     position: relative;
-    right: 58.3333333333%; }
+    right: 58.33333%; }
 
   .col-laptop-pull-8 {
     position: relative;
-    right: 66.6666666667%; }
+    right: 66.66667%; }
 
   .col-laptop-pull-9 {
     position: relative;
@@ -782,11 +782,11 @@ Text Domain: galaxy-domain
 
   .col-laptop-pull-10 {
     position: relative;
-    right: 83.3333333333%; }
+    right: 83.33333%; }
 
   .col-laptop-pull-11 {
     position: relative;
-    right: 91.6666666667%; }
+    right: 91.66667%; }
 
   .col-laptop-pull-12 {
     position: relative;
@@ -794,11 +794,11 @@ Text Domain: galaxy-domain
 
   .col-laptop-push-1 {
     position: relative;
-    left: 8.3333333333%; }
+    left: 8.33333%; }
 
   .col-laptop-push-2 {
     position: relative;
-    left: 16.6666666667%; }
+    left: 16.66667%; }
 
   .col-laptop-push-3 {
     position: relative;
@@ -806,11 +806,11 @@ Text Domain: galaxy-domain
 
   .col-laptop-push-4 {
     position: relative;
-    left: 33.3333333333%; }
+    left: 33.33333%; }
 
   .col-laptop-push-5 {
     position: relative;
-    left: 41.6666666667%; }
+    left: 41.66667%; }
 
   .col-laptop-push-6 {
     position: relative;
@@ -818,11 +818,11 @@ Text Domain: galaxy-domain
 
   .col-laptop-push-7 {
     position: relative;
-    left: 58.3333333333%; }
+    left: 58.33333%; }
 
   .col-laptop-push-8 {
     position: relative;
-    left: 66.6666666667%; }
+    left: 66.66667%; }
 
   .col-laptop-push-9 {
     position: relative;
@@ -830,11 +830,11 @@ Text Domain: galaxy-domain
 
   .col-laptop-push-10 {
     position: relative;
-    left: 83.3333333333%; }
+    left: 83.33333%; }
 
   .col-laptop-push-11 {
     position: relative;
-    left: 91.6666666667%; }
+    left: 91.66667%; }
 
   .col-laptop-push-12 {
     position: relative;
@@ -842,11 +842,11 @@ Text Domain: galaxy-domain
 
   .col-laptop-offset-1 {
     position: relative;
-    margin-left: 8.3333333333%; }
+    margin-left: 8.33333%; }
 
   .col-laptop-offset-2 {
     position: relative;
-    margin-left: 16.6666666667%; }
+    margin-left: 16.66667%; }
 
   .col-laptop-offset-3 {
     position: relative;
@@ -854,11 +854,11 @@ Text Domain: galaxy-domain
 
   .col-laptop-offset-4 {
     position: relative;
-    margin-left: 33.3333333333%; }
+    margin-left: 33.33333%; }
 
   .col-laptop-offset-5 {
     position: relative;
-    margin-left: 41.6666666667%; }
+    margin-left: 41.66667%; }
 
   .col-laptop-offset-6 {
     position: relative;
@@ -866,11 +866,11 @@ Text Domain: galaxy-domain
 
   .col-laptop-offset-7 {
     position: relative;
-    margin-left: 58.3333333333%; }
+    margin-left: 58.33333%; }
 
   .col-laptop-offset-8 {
     position: relative;
-    margin-left: 66.6666666667%; }
+    margin-left: 66.66667%; }
 
   .col-laptop-offset-9 {
     position: relative;
@@ -878,11 +878,11 @@ Text Domain: galaxy-domain
 
   .col-laptop-offset-10 {
     position: relative;
-    margin-left: 83.3333333333%; }
+    margin-left: 83.33333%; }
 
   .col-laptop-offset-11 {
     position: relative;
-    margin-left: 91.6666666667%; }
+    margin-left: 91.66667%; }
 
   .col-laptop-offset-12 {
     position: relative;
@@ -890,12 +890,12 @@ Text Domain: galaxy-domain
 @media (min-width: 1920px) {
   .col-fhd-1 {
     position: relative;
-    width: 8.3333333333%;
+    width: 8.33333%;
     float: left; }
 
   .col-fhd-2 {
     position: relative;
-    width: 16.6666666667%;
+    width: 16.66667%;
     float: left; }
 
   .col-fhd-3 {
@@ -905,12 +905,12 @@ Text Domain: galaxy-domain
 
   .col-fhd-4 {
     position: relative;
-    width: 33.3333333333%;
+    width: 33.33333%;
     float: left; }
 
   .col-fhd-5 {
     position: relative;
-    width: 41.6666666667%;
+    width: 41.66667%;
     float: left; }
 
   .col-fhd-6 {
@@ -920,12 +920,12 @@ Text Domain: galaxy-domain
 
   .col-fhd-7 {
     position: relative;
-    width: 58.3333333333%;
+    width: 58.33333%;
     float: left; }
 
   .col-fhd-8 {
     position: relative;
-    width: 66.6666666667%;
+    width: 66.66667%;
     float: left; }
 
   .col-fhd-9 {
@@ -935,12 +935,12 @@ Text Domain: galaxy-domain
 
   .col-fhd-10 {
     position: relative;
-    width: 83.3333333333%;
+    width: 83.33333%;
     float: left; }
 
   .col-fhd-11 {
     position: relative;
-    width: 91.6666666667%;
+    width: 91.66667%;
     float: left; }
 
   .col-fhd-12 {
@@ -950,11 +950,11 @@ Text Domain: galaxy-domain
 
   .col-fhd-pull-1 {
     position: relative;
-    right: 8.3333333333%; }
+    right: 8.33333%; }
 
   .col-fhd-pull-2 {
     position: relative;
-    right: 16.6666666667%; }
+    right: 16.66667%; }
 
   .col-fhd-pull-3 {
     position: relative;
@@ -962,11 +962,11 @@ Text Domain: galaxy-domain
 
   .col-fhd-pull-4 {
     position: relative;
-    right: 33.3333333333%; }
+    right: 33.33333%; }
 
   .col-fhd-pull-5 {
     position: relative;
-    right: 41.6666666667%; }
+    right: 41.66667%; }
 
   .col-fhd-pull-6 {
     position: relative;
@@ -974,11 +974,11 @@ Text Domain: galaxy-domain
 
   .col-fhd-pull-7 {
     position: relative;
-    right: 58.3333333333%; }
+    right: 58.33333%; }
 
   .col-fhd-pull-8 {
     position: relative;
-    right: 66.6666666667%; }
+    right: 66.66667%; }
 
   .col-fhd-pull-9 {
     position: relative;
@@ -986,11 +986,11 @@ Text Domain: galaxy-domain
 
   .col-fhd-pull-10 {
     position: relative;
-    right: 83.3333333333%; }
+    right: 83.33333%; }
 
   .col-fhd-pull-11 {
     position: relative;
-    right: 91.6666666667%; }
+    right: 91.66667%; }
 
   .col-fhd-pull-12 {
     position: relative;
@@ -998,11 +998,11 @@ Text Domain: galaxy-domain
 
   .col-fhd-push-1 {
     position: relative;
-    left: 8.3333333333%; }
+    left: 8.33333%; }
 
   .col-fhd-push-2 {
     position: relative;
-    left: 16.6666666667%; }
+    left: 16.66667%; }
 
   .col-fhd-push-3 {
     position: relative;
@@ -1010,11 +1010,11 @@ Text Domain: galaxy-domain
 
   .col-fhd-push-4 {
     position: relative;
-    left: 33.3333333333%; }
+    left: 33.33333%; }
 
   .col-fhd-push-5 {
     position: relative;
-    left: 41.6666666667%; }
+    left: 41.66667%; }
 
   .col-fhd-push-6 {
     position: relative;
@@ -1022,11 +1022,11 @@ Text Domain: galaxy-domain
 
   .col-fhd-push-7 {
     position: relative;
-    left: 58.3333333333%; }
+    left: 58.33333%; }
 
   .col-fhd-push-8 {
     position: relative;
-    left: 66.6666666667%; }
+    left: 66.66667%; }
 
   .col-fhd-push-9 {
     position: relative;
@@ -1034,11 +1034,11 @@ Text Domain: galaxy-domain
 
   .col-fhd-push-10 {
     position: relative;
-    left: 83.3333333333%; }
+    left: 83.33333%; }
 
   .col-fhd-push-11 {
     position: relative;
-    left: 91.6666666667%; }
+    left: 91.66667%; }
 
   .col-fhd-push-12 {
     position: relative;
@@ -1046,11 +1046,11 @@ Text Domain: galaxy-domain
 
   .col-fhd-offset-1 {
     position: relative;
-    margin-left: 8.3333333333%; }
+    margin-left: 8.33333%; }
 
   .col-fhd-offset-2 {
     position: relative;
-    margin-left: 16.6666666667%; }
+    margin-left: 16.66667%; }
 
   .col-fhd-offset-3 {
     position: relative;
@@ -1058,11 +1058,11 @@ Text Domain: galaxy-domain
 
   .col-fhd-offset-4 {
     position: relative;
-    margin-left: 33.3333333333%; }
+    margin-left: 33.33333%; }
 
   .col-fhd-offset-5 {
     position: relative;
-    margin-left: 41.6666666667%; }
+    margin-left: 41.66667%; }
 
   .col-fhd-offset-6 {
     position: relative;
@@ -1070,11 +1070,11 @@ Text Domain: galaxy-domain
 
   .col-fhd-offset-7 {
     position: relative;
-    margin-left: 58.3333333333%; }
+    margin-left: 58.33333%; }
 
   .col-fhd-offset-8 {
     position: relative;
-    margin-left: 66.6666666667%; }
+    margin-left: 66.66667%; }
 
   .col-fhd-offset-9 {
     position: relative;
@@ -1082,11 +1082,11 @@ Text Domain: galaxy-domain
 
   .col-fhd-offset-10 {
     position: relative;
-    margin-left: 83.3333333333%; }
+    margin-left: 83.33333%; }
 
   .col-fhd-offset-11 {
     position: relative;
-    margin-left: 91.6666666667%; }
+    margin-left: 91.66667%; }
 
   .col-fhd-offset-12 {
     position: relative;
@@ -1094,12 +1094,12 @@ Text Domain: galaxy-domain
 @media (min-width: 2560px) {
   .col-wqhd-1 {
     position: relative;
-    width: 8.3333333333%;
+    width: 8.33333%;
     float: left; }
 
   .col-wqhd-2 {
     position: relative;
-    width: 16.6666666667%;
+    width: 16.66667%;
     float: left; }
 
   .col-wqhd-3 {
@@ -1109,12 +1109,12 @@ Text Domain: galaxy-domain
 
   .col-wqhd-4 {
     position: relative;
-    width: 33.3333333333%;
+    width: 33.33333%;
     float: left; }
 
   .col-wqhd-5 {
     position: relative;
-    width: 41.6666666667%;
+    width: 41.66667%;
     float: left; }
 
   .col-wqhd-6 {
@@ -1124,12 +1124,12 @@ Text Domain: galaxy-domain
 
   .col-wqhd-7 {
     position: relative;
-    width: 58.3333333333%;
+    width: 58.33333%;
     float: left; }
 
   .col-wqhd-8 {
     position: relative;
-    width: 66.6666666667%;
+    width: 66.66667%;
     float: left; }
 
   .col-wqhd-9 {
@@ -1139,12 +1139,12 @@ Text Domain: galaxy-domain
 
   .col-wqhd-10 {
     position: relative;
-    width: 83.3333333333%;
+    width: 83.33333%;
     float: left; }
 
   .col-wqhd-11 {
     position: relative;
-    width: 91.6666666667%;
+    width: 91.66667%;
     float: left; }
 
   .col-wqhd-12 {
@@ -1154,11 +1154,11 @@ Text Domain: galaxy-domain
 
   .col-wqhd-pull-1 {
     position: relative;
-    right: 8.3333333333%; }
+    right: 8.33333%; }
 
   .col-wqhd-pull-2 {
     position: relative;
-    right: 16.6666666667%; }
+    right: 16.66667%; }
 
   .col-wqhd-pull-3 {
     position: relative;
@@ -1166,11 +1166,11 @@ Text Domain: galaxy-domain
 
   .col-wqhd-pull-4 {
     position: relative;
-    right: 33.3333333333%; }
+    right: 33.33333%; }
 
   .col-wqhd-pull-5 {
     position: relative;
-    right: 41.6666666667%; }
+    right: 41.66667%; }
 
   .col-wqhd-pull-6 {
     position: relative;
@@ -1178,11 +1178,11 @@ Text Domain: galaxy-domain
 
   .col-wqhd-pull-7 {
     position: relative;
-    right: 58.3333333333%; }
+    right: 58.33333%; }
 
   .col-wqhd-pull-8 {
     position: relative;
-    right: 66.6666666667%; }
+    right: 66.66667%; }
 
   .col-wqhd-pull-9 {
     position: relative;
@@ -1190,11 +1190,11 @@ Text Domain: galaxy-domain
 
   .col-wqhd-pull-10 {
     position: relative;
-    right: 83.3333333333%; }
+    right: 83.33333%; }
 
   .col-wqhd-pull-11 {
     position: relative;
-    right: 91.6666666667%; }
+    right: 91.66667%; }
 
   .col-wqhd-pull-12 {
     position: relative;
@@ -1202,11 +1202,11 @@ Text Domain: galaxy-domain
 
   .col-wqhd-push-1 {
     position: relative;
-    left: 8.3333333333%; }
+    left: 8.33333%; }
 
   .col-wqhd-push-2 {
     position: relative;
-    left: 16.6666666667%; }
+    left: 16.66667%; }
 
   .col-wqhd-push-3 {
     position: relative;
@@ -1214,11 +1214,11 @@ Text Domain: galaxy-domain
 
   .col-wqhd-push-4 {
     position: relative;
-    left: 33.3333333333%; }
+    left: 33.33333%; }
 
   .col-wqhd-push-5 {
     position: relative;
-    left: 41.6666666667%; }
+    left: 41.66667%; }
 
   .col-wqhd-push-6 {
     position: relative;
@@ -1226,11 +1226,11 @@ Text Domain: galaxy-domain
 
   .col-wqhd-push-7 {
     position: relative;
-    left: 58.3333333333%; }
+    left: 58.33333%; }
 
   .col-wqhd-push-8 {
     position: relative;
-    left: 66.6666666667%; }
+    left: 66.66667%; }
 
   .col-wqhd-push-9 {
     position: relative;
@@ -1238,11 +1238,11 @@ Text Domain: galaxy-domain
 
   .col-wqhd-push-10 {
     position: relative;
-    left: 83.3333333333%; }
+    left: 83.33333%; }
 
   .col-wqhd-push-11 {
     position: relative;
-    left: 91.6666666667%; }
+    left: 91.66667%; }
 
   .col-wqhd-push-12 {
     position: relative;
@@ -1250,11 +1250,11 @@ Text Domain: galaxy-domain
 
   .col-wqhd-offset-1 {
     position: relative;
-    margin-left: 8.3333333333%; }
+    margin-left: 8.33333%; }
 
   .col-wqhd-offset-2 {
     position: relative;
-    margin-left: 16.6666666667%; }
+    margin-left: 16.66667%; }
 
   .col-wqhd-offset-3 {
     position: relative;
@@ -1262,11 +1262,11 @@ Text Domain: galaxy-domain
 
   .col-wqhd-offset-4 {
     position: relative;
-    margin-left: 33.3333333333%; }
+    margin-left: 33.33333%; }
 
   .col-wqhd-offset-5 {
     position: relative;
-    margin-left: 41.6666666667%; }
+    margin-left: 41.66667%; }
 
   .col-wqhd-offset-6 {
     position: relative;
@@ -1274,11 +1274,11 @@ Text Domain: galaxy-domain
 
   .col-wqhd-offset-7 {
     position: relative;
-    margin-left: 58.3333333333%; }
+    margin-left: 58.33333%; }
 
   .col-wqhd-offset-8 {
     position: relative;
-    margin-left: 66.6666666667%; }
+    margin-left: 66.66667%; }
 
   .col-wqhd-offset-9 {
     position: relative;
@@ -1286,11 +1286,11 @@ Text Domain: galaxy-domain
 
   .col-wqhd-offset-10 {
     position: relative;
-    margin-left: 83.3333333333%; }
+    margin-left: 83.33333%; }
 
   .col-wqhd-offset-11 {
     position: relative;
-    margin-left: 91.6666666667%; }
+    margin-left: 91.66667%; }
 
   .col-wqhd-offset-12 {
     position: relative;
@@ -1298,12 +1298,12 @@ Text Domain: galaxy-domain
 @media (min-width: 1920px) {
   .col-fhd-1 {
     position: relative;
-    width: 8.3333333333%;
+    width: 8.33333%;
     float: left; }
 
   .col-fhd-2 {
     position: relative;
-    width: 16.6666666667%;
+    width: 16.66667%;
     float: left; }
 
   .col-fhd-3 {
@@ -1313,12 +1313,12 @@ Text Domain: galaxy-domain
 
   .col-fhd-4 {
     position: relative;
-    width: 33.3333333333%;
+    width: 33.33333%;
     float: left; }
 
   .col-fhd-5 {
     position: relative;
-    width: 41.6666666667%;
+    width: 41.66667%;
     float: left; }
 
   .col-fhd-6 {
@@ -1328,12 +1328,12 @@ Text Domain: galaxy-domain
 
   .col-fhd-7 {
     position: relative;
-    width: 58.3333333333%;
+    width: 58.33333%;
     float: left; }
 
   .col-fhd-8 {
     position: relative;
-    width: 66.6666666667%;
+    width: 66.66667%;
     float: left; }
 
   .col-fhd-9 {
@@ -1343,12 +1343,12 @@ Text Domain: galaxy-domain
 
   .col-fhd-10 {
     position: relative;
-    width: 83.3333333333%;
+    width: 83.33333%;
     float: left; }
 
   .col-fhd-11 {
     position: relative;
-    width: 91.6666666667%;
+    width: 91.66667%;
     float: left; }
 
   .col-fhd-12 {
@@ -1358,12 +1358,12 @@ Text Domain: galaxy-domain
 
   .col-fhd-13 {
     position: relative;
-    width: 108.3333333333%;
+    width: 108.33333%;
     float: left; }
 
   .col-fhd-14 {
     position: relative;
-    width: 116.6666666667%;
+    width: 116.66667%;
     float: left; }
 
   .col-fhd-15 {
@@ -1373,7 +1373,7 @@ Text Domain: galaxy-domain
 
   .col-fhd-16 {
     position: relative;
-    width: 133.3333333333%;
+    width: 133.33333%;
     float: left; }
 
   .col-fhd-pull-expand-1 {
@@ -1522,12 +1522,12 @@ Text Domain: galaxy-domain
 @media (min-width: 2560px) {
   .col-wqhd-1 {
     position: relative;
-    width: 8.3333333333%;
+    width: 8.33333%;
     float: left; }
 
   .col-wqhd-2 {
     position: relative;
-    width: 16.6666666667%;
+    width: 16.66667%;
     float: left; }
 
   .col-wqhd-3 {
@@ -1537,12 +1537,12 @@ Text Domain: galaxy-domain
 
   .col-wqhd-4 {
     position: relative;
-    width: 33.3333333333%;
+    width: 33.33333%;
     float: left; }
 
   .col-wqhd-5 {
     position: relative;
-    width: 41.6666666667%;
+    width: 41.66667%;
     float: left; }
 
   .col-wqhd-6 {
@@ -1552,12 +1552,12 @@ Text Domain: galaxy-domain
 
   .col-wqhd-7 {
     position: relative;
-    width: 58.3333333333%;
+    width: 58.33333%;
     float: left; }
 
   .col-wqhd-8 {
     position: relative;
-    width: 66.6666666667%;
+    width: 66.66667%;
     float: left; }
 
   .col-wqhd-9 {
@@ -1567,12 +1567,12 @@ Text Domain: galaxy-domain
 
   .col-wqhd-10 {
     position: relative;
-    width: 83.3333333333%;
+    width: 83.33333%;
     float: left; }
 
   .col-wqhd-11 {
     position: relative;
-    width: 91.6666666667%;
+    width: 91.66667%;
     float: left; }
 
   .col-wqhd-12 {
@@ -1582,12 +1582,12 @@ Text Domain: galaxy-domain
 
   .col-wqhd-13 {
     position: relative;
-    width: 108.3333333333%;
+    width: 108.33333%;
     float: left; }
 
   .col-wqhd-14 {
     position: relative;
-    width: 116.6666666667%;
+    width: 116.66667%;
     float: left; }
 
   .col-wqhd-15 {
@@ -1597,7 +1597,7 @@ Text Domain: galaxy-domain
 
   .col-wqhd-16 {
     position: relative;
-    width: 133.3333333333%;
+    width: 133.33333%;
     float: left; }
 
   .col-wqhd-pull-expand-1 {
@@ -2160,10 +2160,8 @@ body {
 Index page
 
 ========================================*/
-.posts-container {
-  height: fit-content; }
-  .posts-container .post {
-    color: #ABB2BE; }
+.posts-container .post {
+  color: #ABB2BE; }
 
 /*========================================
 

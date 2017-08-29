@@ -11,17 +11,17 @@ $width-wqhd : 2560px;
 
 //========================================
 //
-//  #Layer variables
+//  #Layer z-index variables
 //
 //========================================
-$layer-dropdown-backdrop : 500;
-$layer-dropdown : 550;
-$layer-fixed : 600;
-$layer-sticky : 650;
-$layer-modal-backdrop : 700;
-$layer-modal : 750;
-$layer-popover : 800;
-$layer-tooltip : 850;
+$layer-normal : 100;
+$layer-hold : 150;
+$layer-fixed : 200;
+$layer-interface-backdrop : 350;
+$layer-interface : 400;
+$layer-sticky : 500;
+$layer-modal-backdrop : 550;
+$layer-modal : 600;
 
 //========================================
 //

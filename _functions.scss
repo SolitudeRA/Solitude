@@ -1,4 +1,12 @@
-@mixin format_suffix_loop($format-suffix,$i){
+@mixin clearfix(){
+  &::after{
+    display : block;
+    content : "";
+    clear   : both;
+  }
+}
+
+@mixin format_suffix_loop($format-suffix, $i){
   @if $format-suffix == ""{
     width : (100%/12) * $i;
     float : left;

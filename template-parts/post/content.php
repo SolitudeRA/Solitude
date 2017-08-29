@@ -8,13 +8,13 @@
         <?php endif; ?>
         <div class="row post-title-container">
             <?php if ( is_single() ):
-                the_title( "<div class='post_title_single'>", "</div>" );
+                the_title( "<div class='post-title-single'>", "</div>" );
             else:
-                the_title( "<div class='post_title_index'>", "</div>" );
+                the_title( "<div class='post-title-index'>", "</div>" );
             endif; ?>
         </div>
         <div class="row post-meta-container">
-            <section class="post_meta_time">
+            <section class="post-meta-time">
                 <h4><?php _e( "Time posted:", "galaxy-domain" ) ?></h4>
                 <?php the_date( "Y F j" ); ?>  <?php the_time( "g:i a" ); ?>
             </section>
