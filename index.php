@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="container-full main-container">
+<div class="main-container">
     <?php get_sidebar( "left" ); ?>
     <div class="row">
         <div class="posts-container">

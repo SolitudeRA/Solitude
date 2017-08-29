@@ -1,6 +1,6 @@
-<article id="post-<?php the_ID(); ?>" <?php post_class( "container-full", null ); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class( "", null ); ?>>
 
-    <header class="post-header">
+    <header class="post-header container-fluid">
         <?php if ( "" !== get_the_post_thumbnail() ): ?>
             <div class="row post-thumbnail">
                 <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( "" ); ?></a>
@@ -8,27 +8,24 @@
         <?php endif; ?>
         <div class="row post-title-container">
             <?php if ( is_single() ):
-                the_title( "<div class='post-title-single'>", "</div>" );
+                the_title( "<div class='post-title-single col-common-3 col-common-offset-4 col-fhd-expand-4 col-wqhd-expand-4 col-fhd-expand-offset-6 col-wqhd-expand-offset-6'>", "</div>" );
             else:
-                the_title( "<div class='post-title-index'>", "</div>" );
+                the_title( "<div class='post-title-index col-common-3 col-common-offset-4 col-fhd-expand-4 col-wqhd-expand-4 col-fhd-expand-offset-6 col-wqhd-expand-offset-6'>", "</div>" );
             endif; ?>
         </div>
         <div class="row post-meta-container">
-            <section class="post-meta-time">
-                <h4><?php _e( "Time posted:", "galaxy-domain" ) ?></h4>
-                <?php the_date( "Y F j" ); ?>  <?php the_time( "g:i a" ); ?>
-            </section>
-            <section class="post-meta-cat">
-                <h4><?php _e( "Category", "galaxy-domain" ) ?></h4>
+            <div class="post-meta-time col-iPad-3 col-iPadPro-3 col-fhd-expand-4 col-wqhd-expand-4">
+                <?php _e( "Time posted:", "galaxy-domain" ) ?>
+                <?php the_date( "Y F j" ); ?><?php the_time( "g:i a" ); ?>
+            </div>
+            <div class="post-meta-cat col-iPad-3 col-iPadPro-3 col-fhd-expand-4 col-wqhd-expand-4">
+                <?php _e( "Category", "galaxy-domain" ) ?>
                 <?php the_category( " " ); ?>
-            </section>
-            <section class="post-meta-tags">
-                <h4><?php _e( "Tags", "galaxy-domain" ) ?></h4>
+            </div>
+            <div class="post-meta-tags col-iPad-3 col-iPadPro-3 col-fhd-expand-4 col-wqhd-expand-4">
+                <?php _e( "Tags", "galaxy-domain" ) ?>
                 <?php the_tags( null, ",", null ); ?>
-            </section>
-            <section class="post-meta-edit">
-                <?php edit_post_link( __( 'Edit', 'galaxy-domain' ), null, null, null, null ) ?>
-            </section>
+            </div>
         </div>
     </header>
 

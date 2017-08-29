@@ -10,18 +10,17 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 Tags: black , responsive
 Text Domain: galaxy-domain
 */
-*, *::before, ::after {
-  box-sizing: inherit; }
-
 /*========================================
 
 #Format container
 
 ========================================*/
-.container-full {
+.container-fluid {
   width: 100%;
   padding-left: 15px;
-  padding-right: 15px; }
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto; }
 
 .container, .container-half {
   width: 100%;
@@ -63,6 +62,9 @@ Text Domain: galaxy-domain
     width: 1400px; } }
 
 .row {
+  display: flex;
+  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   margin-left: -15px;
   margin-right: -15px; }
 
@@ -74,71 +76,95 @@ Text Domain: galaxy-domain
 @media (min-width: 0) {
   .col-common-1 {
     position: relative;
-    width: 8.33333%;
+    -ms-flex: 0 0 8.3333333333%;
+    flex: 0 0 8.3333333333%;
+    max-width: 8.3333333333%;
     float: left; }
 
   .col-common-2 {
     position: relative;
-    width: 16.66667%;
+    -ms-flex: 0 0 16.6666666667%;
+    flex: 0 0 16.6666666667%;
+    max-width: 16.6666666667%;
     float: left; }
 
   .col-common-3 {
     position: relative;
-    width: 25%;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
     float: left; }
 
   .col-common-4 {
     position: relative;
-    width: 33.33333%;
+    -ms-flex: 0 0 33.3333333333%;
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
     float: left; }
 
   .col-common-5 {
     position: relative;
-    width: 41.66667%;
+    -ms-flex: 0 0 41.6666666667%;
+    flex: 0 0 41.6666666667%;
+    max-width: 41.6666666667%;
     float: left; }
 
   .col-common-6 {
     position: relative;
-    width: 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
     float: left; }
 
   .col-common-7 {
     position: relative;
-    width: 58.33333%;
+    -ms-flex: 0 0 58.3333333333%;
+    flex: 0 0 58.3333333333%;
+    max-width: 58.3333333333%;
     float: left; }
 
   .col-common-8 {
     position: relative;
-    width: 66.66667%;
+    -ms-flex: 0 0 66.6666666667%;
+    flex: 0 0 66.6666666667%;
+    max-width: 66.6666666667%;
     float: left; }
 
   .col-common-9 {
     position: relative;
-    width: 75%;
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
     float: left; }
 
   .col-common-10 {
     position: relative;
-    width: 83.33333%;
+    -ms-flex: 0 0 83.3333333333%;
+    flex: 0 0 83.3333333333%;
+    max-width: 83.3333333333%;
     float: left; }
 
   .col-common-11 {
     position: relative;
-    width: 91.66667%;
+    -ms-flex: 0 0 91.6666666667%;
+    flex: 0 0 91.6666666667%;
+    max-width: 91.6666666667%;
     float: left; }
 
   .col-common-12 {
     position: relative;
-    width: 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
     float: left; }
 
   .col-common-pull-1 {
     position: relative;
-    right: 8.33333%; }
+    right: 8.3333333333%; }
 
   .col-common-pull-2 {
     position: relative;
-    right: 16.66667%; }
+    right: 16.6666666667%; }
 
   .col-common-pull-3 {
     position: relative;
@@ -146,11 +172,11 @@ Text Domain: galaxy-domain
 
   .col-common-pull-4 {
     position: relative;
-    right: 33.33333%; }
+    right: 33.3333333333%; }
 
   .col-common-pull-5 {
     position: relative;
-    right: 41.66667%; }
+    right: 41.6666666667%; }
 
   .col-common-pull-6 {
     position: relative;
@@ -158,11 +184,11 @@ Text Domain: galaxy-domain
 
   .col-common-pull-7 {
     position: relative;
-    right: 58.33333%; }
+    right: 58.3333333333%; }
 
   .col-common-pull-8 {
     position: relative;
-    right: 66.66667%; }
+    right: 66.6666666667%; }
 
   .col-common-pull-9 {
     position: relative;
@@ -170,11 +196,11 @@ Text Domain: galaxy-domain
 
   .col-common-pull-10 {
     position: relative;
-    right: 83.33333%; }
+    right: 83.3333333333%; }
 
   .col-common-pull-11 {
     position: relative;
-    right: 91.66667%; }
+    right: 91.6666666667%; }
 
   .col-common-pull-12 {
     position: relative;
@@ -182,11 +208,11 @@ Text Domain: galaxy-domain
 
   .col-common-push-1 {
     position: relative;
-    left: 8.33333%; }
+    left: 8.3333333333%; }
 
   .col-common-push-2 {
     position: relative;
-    left: 16.66667%; }
+    left: 16.6666666667%; }
 
   .col-common-push-3 {
     position: relative;
@@ -194,11 +220,11 @@ Text Domain: galaxy-domain
 
   .col-common-push-4 {
     position: relative;
-    left: 33.33333%; }
+    left: 33.3333333333%; }
 
   .col-common-push-5 {
     position: relative;
-    left: 41.66667%; }
+    left: 41.6666666667%; }
 
   .col-common-push-6 {
     position: relative;
@@ -206,11 +232,11 @@ Text Domain: galaxy-domain
 
   .col-common-push-7 {
     position: relative;
-    left: 58.33333%; }
+    left: 58.3333333333%; }
 
   .col-common-push-8 {
     position: relative;
-    left: 66.66667%; }
+    left: 66.6666666667%; }
 
   .col-common-push-9 {
     position: relative;
@@ -218,11 +244,11 @@ Text Domain: galaxy-domain
 
   .col-common-push-10 {
     position: relative;
-    left: 83.33333%; }
+    left: 83.3333333333%; }
 
   .col-common-push-11 {
     position: relative;
-    left: 91.66667%; }
+    left: 91.6666666667%; }
 
   .col-common-push-12 {
     position: relative;
@@ -230,11 +256,11 @@ Text Domain: galaxy-domain
 
   .col-common-offset-1 {
     position: relative;
-    margin-left: 8.33333%; }
+    margin-left: 8.3333333333%; }
 
   .col-common-offset-2 {
     position: relative;
-    margin-left: 16.66667%; }
+    margin-left: 16.6666666667%; }
 
   .col-common-offset-3 {
     position: relative;
@@ -242,11 +268,11 @@ Text Domain: galaxy-domain
 
   .col-common-offset-4 {
     position: relative;
-    margin-left: 33.33333%; }
+    margin-left: 33.3333333333%; }
 
   .col-common-offset-5 {
     position: relative;
-    margin-left: 41.66667%; }
+    margin-left: 41.6666666667%; }
 
   .col-common-offset-6 {
     position: relative;
@@ -254,11 +280,11 @@ Text Domain: galaxy-domain
 
   .col-common-offset-7 {
     position: relative;
-    margin-left: 58.33333%; }
+    margin-left: 58.3333333333%; }
 
   .col-common-offset-8 {
     position: relative;
-    margin-left: 66.66667%; }
+    margin-left: 66.6666666667%; }
 
   .col-common-offset-9 {
     position: relative;
@@ -266,11 +292,11 @@ Text Domain: galaxy-domain
 
   .col-common-offset-10 {
     position: relative;
-    margin-left: 83.33333%; }
+    margin-left: 83.3333333333%; }
 
   .col-common-offset-11 {
     position: relative;
-    margin-left: 91.66667%; }
+    margin-left: 91.6666666667%; }
 
   .col-common-offset-12 {
     position: relative;
@@ -278,71 +304,95 @@ Text Domain: galaxy-domain
 @media (min-width: 768px) {
   .col-iPad-1 {
     position: relative;
-    width: 8.33333%;
+    -ms-flex: 0 0 8.3333333333%;
+    flex: 0 0 8.3333333333%;
+    max-width: 8.3333333333%;
     float: left; }
 
   .col-iPad-2 {
     position: relative;
-    width: 16.66667%;
+    -ms-flex: 0 0 16.6666666667%;
+    flex: 0 0 16.6666666667%;
+    max-width: 16.6666666667%;
     float: left; }
 
   .col-iPad-3 {
     position: relative;
-    width: 25%;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
     float: left; }
 
   .col-iPad-4 {
     position: relative;
-    width: 33.33333%;
+    -ms-flex: 0 0 33.3333333333%;
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
     float: left; }
 
   .col-iPad-5 {
     position: relative;
-    width: 41.66667%;
+    -ms-flex: 0 0 41.6666666667%;
+    flex: 0 0 41.6666666667%;
+    max-width: 41.6666666667%;
     float: left; }
 
   .col-iPad-6 {
     position: relative;
-    width: 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
     float: left; }
 
   .col-iPad-7 {
     position: relative;
-    width: 58.33333%;
+    -ms-flex: 0 0 58.3333333333%;
+    flex: 0 0 58.3333333333%;
+    max-width: 58.3333333333%;
     float: left; }
 
   .col-iPad-8 {
     position: relative;
-    width: 66.66667%;
+    -ms-flex: 0 0 66.6666666667%;
+    flex: 0 0 66.6666666667%;
+    max-width: 66.6666666667%;
     float: left; }
 
   .col-iPad-9 {
     position: relative;
-    width: 75%;
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
     float: left; }
 
   .col-iPad-10 {
     position: relative;
-    width: 83.33333%;
+    -ms-flex: 0 0 83.3333333333%;
+    flex: 0 0 83.3333333333%;
+    max-width: 83.3333333333%;
     float: left; }
 
   .col-iPad-11 {
     position: relative;
-    width: 91.66667%;
+    -ms-flex: 0 0 91.6666666667%;
+    flex: 0 0 91.6666666667%;
+    max-width: 91.6666666667%;
     float: left; }
 
   .col-iPad-12 {
     position: relative;
-    width: 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
     float: left; }
 
   .col-iPad-pull-1 {
     position: relative;
-    right: 8.33333%; }
+    right: 8.3333333333%; }
 
   .col-iPad-pull-2 {
     position: relative;
-    right: 16.66667%; }
+    right: 16.6666666667%; }
 
   .col-iPad-pull-3 {
     position: relative;
@@ -350,11 +400,11 @@ Text Domain: galaxy-domain
 
   .col-iPad-pull-4 {
     position: relative;
-    right: 33.33333%; }
+    right: 33.3333333333%; }
 
   .col-iPad-pull-5 {
     position: relative;
-    right: 41.66667%; }
+    right: 41.6666666667%; }
 
   .col-iPad-pull-6 {
     position: relative;
@@ -362,11 +412,11 @@ Text Domain: galaxy-domain
 
   .col-iPad-pull-7 {
     position: relative;
-    right: 58.33333%; }
+    right: 58.3333333333%; }
 
   .col-iPad-pull-8 {
     position: relative;
-    right: 66.66667%; }
+    right: 66.6666666667%; }
 
   .col-iPad-pull-9 {
     position: relative;
@@ -374,11 +424,11 @@ Text Domain: galaxy-domain
 
   .col-iPad-pull-10 {
     position: relative;
-    right: 83.33333%; }
+    right: 83.3333333333%; }
 
   .col-iPad-pull-11 {
     position: relative;
-    right: 91.66667%; }
+    right: 91.6666666667%; }
 
   .col-iPad-pull-12 {
     position: relative;
@@ -386,11 +436,11 @@ Text Domain: galaxy-domain
 
   .col-iPad-push-1 {
     position: relative;
-    left: 8.33333%; }
+    left: 8.3333333333%; }
 
   .col-iPad-push-2 {
     position: relative;
-    left: 16.66667%; }
+    left: 16.6666666667%; }
 
   .col-iPad-push-3 {
     position: relative;
@@ -398,11 +448,11 @@ Text Domain: galaxy-domain
 
   .col-iPad-push-4 {
     position: relative;
-    left: 33.33333%; }
+    left: 33.3333333333%; }
 
   .col-iPad-push-5 {
     position: relative;
-    left: 41.66667%; }
+    left: 41.6666666667%; }
 
   .col-iPad-push-6 {
     position: relative;
@@ -410,11 +460,11 @@ Text Domain: galaxy-domain
 
   .col-iPad-push-7 {
     position: relative;
-    left: 58.33333%; }
+    left: 58.3333333333%; }
 
   .col-iPad-push-8 {
     position: relative;
-    left: 66.66667%; }
+    left: 66.6666666667%; }
 
   .col-iPad-push-9 {
     position: relative;
@@ -422,11 +472,11 @@ Text Domain: galaxy-domain
 
   .col-iPad-push-10 {
     position: relative;
-    left: 83.33333%; }
+    left: 83.3333333333%; }
 
   .col-iPad-push-11 {
     position: relative;
-    left: 91.66667%; }
+    left: 91.6666666667%; }
 
   .col-iPad-push-12 {
     position: relative;
@@ -434,11 +484,11 @@ Text Domain: galaxy-domain
 
   .col-iPad-offset-1 {
     position: relative;
-    margin-left: 8.33333%; }
+    margin-left: 8.3333333333%; }
 
   .col-iPad-offset-2 {
     position: relative;
-    margin-left: 16.66667%; }
+    margin-left: 16.6666666667%; }
 
   .col-iPad-offset-3 {
     position: relative;
@@ -446,11 +496,11 @@ Text Domain: galaxy-domain
 
   .col-iPad-offset-4 {
     position: relative;
-    margin-left: 33.33333%; }
+    margin-left: 33.3333333333%; }
 
   .col-iPad-offset-5 {
     position: relative;
-    margin-left: 41.66667%; }
+    margin-left: 41.6666666667%; }
 
   .col-iPad-offset-6 {
     position: relative;
@@ -458,11 +508,11 @@ Text Domain: galaxy-domain
 
   .col-iPad-offset-7 {
     position: relative;
-    margin-left: 58.33333%; }
+    margin-left: 58.3333333333%; }
 
   .col-iPad-offset-8 {
     position: relative;
-    margin-left: 66.66667%; }
+    margin-left: 66.6666666667%; }
 
   .col-iPad-offset-9 {
     position: relative;
@@ -470,11 +520,11 @@ Text Domain: galaxy-domain
 
   .col-iPad-offset-10 {
     position: relative;
-    margin-left: 83.33333%; }
+    margin-left: 83.3333333333%; }
 
   .col-iPad-offset-11 {
     position: relative;
-    margin-left: 91.66667%; }
+    margin-left: 91.6666666667%; }
 
   .col-iPad-offset-12 {
     position: relative;
@@ -482,71 +532,95 @@ Text Domain: galaxy-domain
 @media (min-width: 1024px) {
   .col-iPadPro-1 {
     position: relative;
-    width: 8.33333%;
+    -ms-flex: 0 0 8.3333333333%;
+    flex: 0 0 8.3333333333%;
+    max-width: 8.3333333333%;
     float: left; }
 
   .col-iPadPro-2 {
     position: relative;
-    width: 16.66667%;
+    -ms-flex: 0 0 16.6666666667%;
+    flex: 0 0 16.6666666667%;
+    max-width: 16.6666666667%;
     float: left; }
 
   .col-iPadPro-3 {
     position: relative;
-    width: 25%;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
     float: left; }
 
   .col-iPadPro-4 {
     position: relative;
-    width: 33.33333%;
+    -ms-flex: 0 0 33.3333333333%;
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
     float: left; }
 
   .col-iPadPro-5 {
     position: relative;
-    width: 41.66667%;
+    -ms-flex: 0 0 41.6666666667%;
+    flex: 0 0 41.6666666667%;
+    max-width: 41.6666666667%;
     float: left; }
 
   .col-iPadPro-6 {
     position: relative;
-    width: 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
     float: left; }
 
   .col-iPadPro-7 {
     position: relative;
-    width: 58.33333%;
+    -ms-flex: 0 0 58.3333333333%;
+    flex: 0 0 58.3333333333%;
+    max-width: 58.3333333333%;
     float: left; }
 
   .col-iPadPro-8 {
     position: relative;
-    width: 66.66667%;
+    -ms-flex: 0 0 66.6666666667%;
+    flex: 0 0 66.6666666667%;
+    max-width: 66.6666666667%;
     float: left; }
 
   .col-iPadPro-9 {
     position: relative;
-    width: 75%;
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
     float: left; }
 
   .col-iPadPro-10 {
     position: relative;
-    width: 83.33333%;
+    -ms-flex: 0 0 83.3333333333%;
+    flex: 0 0 83.3333333333%;
+    max-width: 83.3333333333%;
     float: left; }
 
   .col-iPadPro-11 {
     position: relative;
-    width: 91.66667%;
+    -ms-flex: 0 0 91.6666666667%;
+    flex: 0 0 91.6666666667%;
+    max-width: 91.6666666667%;
     float: left; }
 
   .col-iPadPro-12 {
     position: relative;
-    width: 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
     float: left; }
 
   .col-iPadPro-pull-1 {
     position: relative;
-    right: 8.33333%; }
+    right: 8.3333333333%; }
 
   .col-iPadPro-pull-2 {
     position: relative;
-    right: 16.66667%; }
+    right: 16.6666666667%; }
 
   .col-iPadPro-pull-3 {
     position: relative;
@@ -554,11 +628,11 @@ Text Domain: galaxy-domain
 
   .col-iPadPro-pull-4 {
     position: relative;
-    right: 33.33333%; }
+    right: 33.3333333333%; }
 
   .col-iPadPro-pull-5 {
     position: relative;
-    right: 41.66667%; }
+    right: 41.6666666667%; }
 
   .col-iPadPro-pull-6 {
     position: relative;
@@ -566,11 +640,11 @@ Text Domain: galaxy-domain
 
   .col-iPadPro-pull-7 {
     position: relative;
-    right: 58.33333%; }
+    right: 58.3333333333%; }
 
   .col-iPadPro-pull-8 {
     position: relative;
-    right: 66.66667%; }
+    right: 66.6666666667%; }
 
   .col-iPadPro-pull-9 {
     position: relative;
@@ -578,11 +652,11 @@ Text Domain: galaxy-domain
 
   .col-iPadPro-pull-10 {
     position: relative;
-    right: 83.33333%; }
+    right: 83.3333333333%; }
 
   .col-iPadPro-pull-11 {
     position: relative;
-    right: 91.66667%; }
+    right: 91.6666666667%; }
 
   .col-iPadPro-pull-12 {
     position: relative;
@@ -590,11 +664,11 @@ Text Domain: galaxy-domain
 
   .col-iPadPro-push-1 {
     position: relative;
-    left: 8.33333%; }
+    left: 8.3333333333%; }
 
   .col-iPadPro-push-2 {
     position: relative;
-    left: 16.66667%; }
+    left: 16.6666666667%; }
 
   .col-iPadPro-push-3 {
     position: relative;
@@ -602,11 +676,11 @@ Text Domain: galaxy-domain
 
   .col-iPadPro-push-4 {
     position: relative;
-    left: 33.33333%; }
+    left: 33.3333333333%; }
 
   .col-iPadPro-push-5 {
     position: relative;
-    left: 41.66667%; }
+    left: 41.6666666667%; }
 
   .col-iPadPro-push-6 {
     position: relative;
@@ -614,11 +688,11 @@ Text Domain: galaxy-domain
 
   .col-iPadPro-push-7 {
     position: relative;
-    left: 58.33333%; }
+    left: 58.3333333333%; }
 
   .col-iPadPro-push-8 {
     position: relative;
-    left: 66.66667%; }
+    left: 66.6666666667%; }
 
   .col-iPadPro-push-9 {
     position: relative;
@@ -626,11 +700,11 @@ Text Domain: galaxy-domain
 
   .col-iPadPro-push-10 {
     position: relative;
-    left: 83.33333%; }
+    left: 83.3333333333%; }
 
   .col-iPadPro-push-11 {
     position: relative;
-    left: 91.66667%; }
+    left: 91.6666666667%; }
 
   .col-iPadPro-push-12 {
     position: relative;
@@ -638,11 +712,11 @@ Text Domain: galaxy-domain
 
   .col-iPadPro-offset-1 {
     position: relative;
-    margin-left: 8.33333%; }
+    margin-left: 8.3333333333%; }
 
   .col-iPadPro-offset-2 {
     position: relative;
-    margin-left: 16.66667%; }
+    margin-left: 16.6666666667%; }
 
   .col-iPadPro-offset-3 {
     position: relative;
@@ -650,11 +724,11 @@ Text Domain: galaxy-domain
 
   .col-iPadPro-offset-4 {
     position: relative;
-    margin-left: 33.33333%; }
+    margin-left: 33.3333333333%; }
 
   .col-iPadPro-offset-5 {
     position: relative;
-    margin-left: 41.66667%; }
+    margin-left: 41.6666666667%; }
 
   .col-iPadPro-offset-6 {
     position: relative;
@@ -662,11 +736,11 @@ Text Domain: galaxy-domain
 
   .col-iPadPro-offset-7 {
     position: relative;
-    margin-left: 58.33333%; }
+    margin-left: 58.3333333333%; }
 
   .col-iPadPro-offset-8 {
     position: relative;
-    margin-left: 66.66667%; }
+    margin-left: 66.6666666667%; }
 
   .col-iPadPro-offset-9 {
     position: relative;
@@ -674,11 +748,11 @@ Text Domain: galaxy-domain
 
   .col-iPadPro-offset-10 {
     position: relative;
-    margin-left: 83.33333%; }
+    margin-left: 83.3333333333%; }
 
   .col-iPadPro-offset-11 {
     position: relative;
-    margin-left: 91.66667%; }
+    margin-left: 91.6666666667%; }
 
   .col-iPadPro-offset-12 {
     position: relative;
@@ -686,71 +760,95 @@ Text Domain: galaxy-domain
 @media (min-width: 1366px) {
   .col-laptop-1 {
     position: relative;
-    width: 8.33333%;
+    -ms-flex: 0 0 8.3333333333%;
+    flex: 0 0 8.3333333333%;
+    max-width: 8.3333333333%;
     float: left; }
 
   .col-laptop-2 {
     position: relative;
-    width: 16.66667%;
+    -ms-flex: 0 0 16.6666666667%;
+    flex: 0 0 16.6666666667%;
+    max-width: 16.6666666667%;
     float: left; }
 
   .col-laptop-3 {
     position: relative;
-    width: 25%;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
     float: left; }
 
   .col-laptop-4 {
     position: relative;
-    width: 33.33333%;
+    -ms-flex: 0 0 33.3333333333%;
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
     float: left; }
 
   .col-laptop-5 {
     position: relative;
-    width: 41.66667%;
+    -ms-flex: 0 0 41.6666666667%;
+    flex: 0 0 41.6666666667%;
+    max-width: 41.6666666667%;
     float: left; }
 
   .col-laptop-6 {
     position: relative;
-    width: 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
     float: left; }
 
   .col-laptop-7 {
     position: relative;
-    width: 58.33333%;
+    -ms-flex: 0 0 58.3333333333%;
+    flex: 0 0 58.3333333333%;
+    max-width: 58.3333333333%;
     float: left; }
 
   .col-laptop-8 {
     position: relative;
-    width: 66.66667%;
+    -ms-flex: 0 0 66.6666666667%;
+    flex: 0 0 66.6666666667%;
+    max-width: 66.6666666667%;
     float: left; }
 
   .col-laptop-9 {
     position: relative;
-    width: 75%;
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
     float: left; }
 
   .col-laptop-10 {
     position: relative;
-    width: 83.33333%;
+    -ms-flex: 0 0 83.3333333333%;
+    flex: 0 0 83.3333333333%;
+    max-width: 83.3333333333%;
     float: left; }
 
   .col-laptop-11 {
     position: relative;
-    width: 91.66667%;
+    -ms-flex: 0 0 91.6666666667%;
+    flex: 0 0 91.6666666667%;
+    max-width: 91.6666666667%;
     float: left; }
 
   .col-laptop-12 {
     position: relative;
-    width: 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
     float: left; }
 
   .col-laptop-pull-1 {
     position: relative;
-    right: 8.33333%; }
+    right: 8.3333333333%; }
 
   .col-laptop-pull-2 {
     position: relative;
-    right: 16.66667%; }
+    right: 16.6666666667%; }
 
   .col-laptop-pull-3 {
     position: relative;
@@ -758,11 +856,11 @@ Text Domain: galaxy-domain
 
   .col-laptop-pull-4 {
     position: relative;
-    right: 33.33333%; }
+    right: 33.3333333333%; }
 
   .col-laptop-pull-5 {
     position: relative;
-    right: 41.66667%; }
+    right: 41.6666666667%; }
 
   .col-laptop-pull-6 {
     position: relative;
@@ -770,11 +868,11 @@ Text Domain: galaxy-domain
 
   .col-laptop-pull-7 {
     position: relative;
-    right: 58.33333%; }
+    right: 58.3333333333%; }
 
   .col-laptop-pull-8 {
     position: relative;
-    right: 66.66667%; }
+    right: 66.6666666667%; }
 
   .col-laptop-pull-9 {
     position: relative;
@@ -782,11 +880,11 @@ Text Domain: galaxy-domain
 
   .col-laptop-pull-10 {
     position: relative;
-    right: 83.33333%; }
+    right: 83.3333333333%; }
 
   .col-laptop-pull-11 {
     position: relative;
-    right: 91.66667%; }
+    right: 91.6666666667%; }
 
   .col-laptop-pull-12 {
     position: relative;
@@ -794,11 +892,11 @@ Text Domain: galaxy-domain
 
   .col-laptop-push-1 {
     position: relative;
-    left: 8.33333%; }
+    left: 8.3333333333%; }
 
   .col-laptop-push-2 {
     position: relative;
-    left: 16.66667%; }
+    left: 16.6666666667%; }
 
   .col-laptop-push-3 {
     position: relative;
@@ -806,11 +904,11 @@ Text Domain: galaxy-domain
 
   .col-laptop-push-4 {
     position: relative;
-    left: 33.33333%; }
+    left: 33.3333333333%; }
 
   .col-laptop-push-5 {
     position: relative;
-    left: 41.66667%; }
+    left: 41.6666666667%; }
 
   .col-laptop-push-6 {
     position: relative;
@@ -818,11 +916,11 @@ Text Domain: galaxy-domain
 
   .col-laptop-push-7 {
     position: relative;
-    left: 58.33333%; }
+    left: 58.3333333333%; }
 
   .col-laptop-push-8 {
     position: relative;
-    left: 66.66667%; }
+    left: 66.6666666667%; }
 
   .col-laptop-push-9 {
     position: relative;
@@ -830,11 +928,11 @@ Text Domain: galaxy-domain
 
   .col-laptop-push-10 {
     position: relative;
-    left: 83.33333%; }
+    left: 83.3333333333%; }
 
   .col-laptop-push-11 {
     position: relative;
-    left: 91.66667%; }
+    left: 91.6666666667%; }
 
   .col-laptop-push-12 {
     position: relative;
@@ -842,11 +940,11 @@ Text Domain: galaxy-domain
 
   .col-laptop-offset-1 {
     position: relative;
-    margin-left: 8.33333%; }
+    margin-left: 8.3333333333%; }
 
   .col-laptop-offset-2 {
     position: relative;
-    margin-left: 16.66667%; }
+    margin-left: 16.6666666667%; }
 
   .col-laptop-offset-3 {
     position: relative;
@@ -854,11 +952,11 @@ Text Domain: galaxy-domain
 
   .col-laptop-offset-4 {
     position: relative;
-    margin-left: 33.33333%; }
+    margin-left: 33.3333333333%; }
 
   .col-laptop-offset-5 {
     position: relative;
-    margin-left: 41.66667%; }
+    margin-left: 41.6666666667%; }
 
   .col-laptop-offset-6 {
     position: relative;
@@ -866,11 +964,11 @@ Text Domain: galaxy-domain
 
   .col-laptop-offset-7 {
     position: relative;
-    margin-left: 58.33333%; }
+    margin-left: 58.3333333333%; }
 
   .col-laptop-offset-8 {
     position: relative;
-    margin-left: 66.66667%; }
+    margin-left: 66.6666666667%; }
 
   .col-laptop-offset-9 {
     position: relative;
@@ -878,11 +976,11 @@ Text Domain: galaxy-domain
 
   .col-laptop-offset-10 {
     position: relative;
-    margin-left: 83.33333%; }
+    margin-left: 83.3333333333%; }
 
   .col-laptop-offset-11 {
     position: relative;
-    margin-left: 91.66667%; }
+    margin-left: 91.6666666667%; }
 
   .col-laptop-offset-12 {
     position: relative;
@@ -890,71 +988,95 @@ Text Domain: galaxy-domain
 @media (min-width: 1920px) {
   .col-fhd-1 {
     position: relative;
-    width: 8.33333%;
+    -ms-flex: 0 0 8.3333333333%;
+    flex: 0 0 8.3333333333%;
+    max-width: 8.3333333333%;
     float: left; }
 
   .col-fhd-2 {
     position: relative;
-    width: 16.66667%;
+    -ms-flex: 0 0 16.6666666667%;
+    flex: 0 0 16.6666666667%;
+    max-width: 16.6666666667%;
     float: left; }
 
   .col-fhd-3 {
     position: relative;
-    width: 25%;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
     float: left; }
 
   .col-fhd-4 {
     position: relative;
-    width: 33.33333%;
+    -ms-flex: 0 0 33.3333333333%;
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
     float: left; }
 
   .col-fhd-5 {
     position: relative;
-    width: 41.66667%;
+    -ms-flex: 0 0 41.6666666667%;
+    flex: 0 0 41.6666666667%;
+    max-width: 41.6666666667%;
     float: left; }
 
   .col-fhd-6 {
     position: relative;
-    width: 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
     float: left; }
 
   .col-fhd-7 {
     position: relative;
-    width: 58.33333%;
+    -ms-flex: 0 0 58.3333333333%;
+    flex: 0 0 58.3333333333%;
+    max-width: 58.3333333333%;
     float: left; }
 
   .col-fhd-8 {
     position: relative;
-    width: 66.66667%;
+    -ms-flex: 0 0 66.6666666667%;
+    flex: 0 0 66.6666666667%;
+    max-width: 66.6666666667%;
     float: left; }
 
   .col-fhd-9 {
     position: relative;
-    width: 75%;
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
     float: left; }
 
   .col-fhd-10 {
     position: relative;
-    width: 83.33333%;
+    -ms-flex: 0 0 83.3333333333%;
+    flex: 0 0 83.3333333333%;
+    max-width: 83.3333333333%;
     float: left; }
 
   .col-fhd-11 {
     position: relative;
-    width: 91.66667%;
+    -ms-flex: 0 0 91.6666666667%;
+    flex: 0 0 91.6666666667%;
+    max-width: 91.6666666667%;
     float: left; }
 
   .col-fhd-12 {
     position: relative;
-    width: 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
     float: left; }
 
   .col-fhd-pull-1 {
     position: relative;
-    right: 8.33333%; }
+    right: 8.3333333333%; }
 
   .col-fhd-pull-2 {
     position: relative;
-    right: 16.66667%; }
+    right: 16.6666666667%; }
 
   .col-fhd-pull-3 {
     position: relative;
@@ -962,11 +1084,11 @@ Text Domain: galaxy-domain
 
   .col-fhd-pull-4 {
     position: relative;
-    right: 33.33333%; }
+    right: 33.3333333333%; }
 
   .col-fhd-pull-5 {
     position: relative;
-    right: 41.66667%; }
+    right: 41.6666666667%; }
 
   .col-fhd-pull-6 {
     position: relative;
@@ -974,11 +1096,11 @@ Text Domain: galaxy-domain
 
   .col-fhd-pull-7 {
     position: relative;
-    right: 58.33333%; }
+    right: 58.3333333333%; }
 
   .col-fhd-pull-8 {
     position: relative;
-    right: 66.66667%; }
+    right: 66.6666666667%; }
 
   .col-fhd-pull-9 {
     position: relative;
@@ -986,11 +1108,11 @@ Text Domain: galaxy-domain
 
   .col-fhd-pull-10 {
     position: relative;
-    right: 83.33333%; }
+    right: 83.3333333333%; }
 
   .col-fhd-pull-11 {
     position: relative;
-    right: 91.66667%; }
+    right: 91.6666666667%; }
 
   .col-fhd-pull-12 {
     position: relative;
@@ -998,11 +1120,11 @@ Text Domain: galaxy-domain
 
   .col-fhd-push-1 {
     position: relative;
-    left: 8.33333%; }
+    left: 8.3333333333%; }
 
   .col-fhd-push-2 {
     position: relative;
-    left: 16.66667%; }
+    left: 16.6666666667%; }
 
   .col-fhd-push-3 {
     position: relative;
@@ -1010,11 +1132,11 @@ Text Domain: galaxy-domain
 
   .col-fhd-push-4 {
     position: relative;
-    left: 33.33333%; }
+    left: 33.3333333333%; }
 
   .col-fhd-push-5 {
     position: relative;
-    left: 41.66667%; }
+    left: 41.6666666667%; }
 
   .col-fhd-push-6 {
     position: relative;
@@ -1022,11 +1144,11 @@ Text Domain: galaxy-domain
 
   .col-fhd-push-7 {
     position: relative;
-    left: 58.33333%; }
+    left: 58.3333333333%; }
 
   .col-fhd-push-8 {
     position: relative;
-    left: 66.66667%; }
+    left: 66.6666666667%; }
 
   .col-fhd-push-9 {
     position: relative;
@@ -1034,11 +1156,11 @@ Text Domain: galaxy-domain
 
   .col-fhd-push-10 {
     position: relative;
-    left: 83.33333%; }
+    left: 83.3333333333%; }
 
   .col-fhd-push-11 {
     position: relative;
-    left: 91.66667%; }
+    left: 91.6666666667%; }
 
   .col-fhd-push-12 {
     position: relative;
@@ -1046,11 +1168,11 @@ Text Domain: galaxy-domain
 
   .col-fhd-offset-1 {
     position: relative;
-    margin-left: 8.33333%; }
+    margin-left: 8.3333333333%; }
 
   .col-fhd-offset-2 {
     position: relative;
-    margin-left: 16.66667%; }
+    margin-left: 16.6666666667%; }
 
   .col-fhd-offset-3 {
     position: relative;
@@ -1058,11 +1180,11 @@ Text Domain: galaxy-domain
 
   .col-fhd-offset-4 {
     position: relative;
-    margin-left: 33.33333%; }
+    margin-left: 33.3333333333%; }
 
   .col-fhd-offset-5 {
     position: relative;
-    margin-left: 41.66667%; }
+    margin-left: 41.6666666667%; }
 
   .col-fhd-offset-6 {
     position: relative;
@@ -1070,11 +1192,11 @@ Text Domain: galaxy-domain
 
   .col-fhd-offset-7 {
     position: relative;
-    margin-left: 58.33333%; }
+    margin-left: 58.3333333333%; }
 
   .col-fhd-offset-8 {
     position: relative;
-    margin-left: 66.66667%; }
+    margin-left: 66.6666666667%; }
 
   .col-fhd-offset-9 {
     position: relative;
@@ -1082,11 +1204,11 @@ Text Domain: galaxy-domain
 
   .col-fhd-offset-10 {
     position: relative;
-    margin-left: 83.33333%; }
+    margin-left: 83.3333333333%; }
 
   .col-fhd-offset-11 {
     position: relative;
-    margin-left: 91.66667%; }
+    margin-left: 91.6666666667%; }
 
   .col-fhd-offset-12 {
     position: relative;
@@ -1094,71 +1216,95 @@ Text Domain: galaxy-domain
 @media (min-width: 2560px) {
   .col-wqhd-1 {
     position: relative;
-    width: 8.33333%;
+    -ms-flex: 0 0 8.3333333333%;
+    flex: 0 0 8.3333333333%;
+    max-width: 8.3333333333%;
     float: left; }
 
   .col-wqhd-2 {
     position: relative;
-    width: 16.66667%;
+    -ms-flex: 0 0 16.6666666667%;
+    flex: 0 0 16.6666666667%;
+    max-width: 16.6666666667%;
     float: left; }
 
   .col-wqhd-3 {
     position: relative;
-    width: 25%;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
     float: left; }
 
   .col-wqhd-4 {
     position: relative;
-    width: 33.33333%;
+    -ms-flex: 0 0 33.3333333333%;
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
     float: left; }
 
   .col-wqhd-5 {
     position: relative;
-    width: 41.66667%;
+    -ms-flex: 0 0 41.6666666667%;
+    flex: 0 0 41.6666666667%;
+    max-width: 41.6666666667%;
     float: left; }
 
   .col-wqhd-6 {
     position: relative;
-    width: 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
     float: left; }
 
   .col-wqhd-7 {
     position: relative;
-    width: 58.33333%;
+    -ms-flex: 0 0 58.3333333333%;
+    flex: 0 0 58.3333333333%;
+    max-width: 58.3333333333%;
     float: left; }
 
   .col-wqhd-8 {
     position: relative;
-    width: 66.66667%;
+    -ms-flex: 0 0 66.6666666667%;
+    flex: 0 0 66.6666666667%;
+    max-width: 66.6666666667%;
     float: left; }
 
   .col-wqhd-9 {
     position: relative;
-    width: 75%;
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
     float: left; }
 
   .col-wqhd-10 {
     position: relative;
-    width: 83.33333%;
+    -ms-flex: 0 0 83.3333333333%;
+    flex: 0 0 83.3333333333%;
+    max-width: 83.3333333333%;
     float: left; }
 
   .col-wqhd-11 {
     position: relative;
-    width: 91.66667%;
+    -ms-flex: 0 0 91.6666666667%;
+    flex: 0 0 91.6666666667%;
+    max-width: 91.6666666667%;
     float: left; }
 
   .col-wqhd-12 {
     position: relative;
-    width: 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
     float: left; }
 
   .col-wqhd-pull-1 {
     position: relative;
-    right: 8.33333%; }
+    right: 8.3333333333%; }
 
   .col-wqhd-pull-2 {
     position: relative;
-    right: 16.66667%; }
+    right: 16.6666666667%; }
 
   .col-wqhd-pull-3 {
     position: relative;
@@ -1166,11 +1312,11 @@ Text Domain: galaxy-domain
 
   .col-wqhd-pull-4 {
     position: relative;
-    right: 33.33333%; }
+    right: 33.3333333333%; }
 
   .col-wqhd-pull-5 {
     position: relative;
-    right: 41.66667%; }
+    right: 41.6666666667%; }
 
   .col-wqhd-pull-6 {
     position: relative;
@@ -1178,11 +1324,11 @@ Text Domain: galaxy-domain
 
   .col-wqhd-pull-7 {
     position: relative;
-    right: 58.33333%; }
+    right: 58.3333333333%; }
 
   .col-wqhd-pull-8 {
     position: relative;
-    right: 66.66667%; }
+    right: 66.6666666667%; }
 
   .col-wqhd-pull-9 {
     position: relative;
@@ -1190,11 +1336,11 @@ Text Domain: galaxy-domain
 
   .col-wqhd-pull-10 {
     position: relative;
-    right: 83.33333%; }
+    right: 83.3333333333%; }
 
   .col-wqhd-pull-11 {
     position: relative;
-    right: 91.66667%; }
+    right: 91.6666666667%; }
 
   .col-wqhd-pull-12 {
     position: relative;
@@ -1202,11 +1348,11 @@ Text Domain: galaxy-domain
 
   .col-wqhd-push-1 {
     position: relative;
-    left: 8.33333%; }
+    left: 8.3333333333%; }
 
   .col-wqhd-push-2 {
     position: relative;
-    left: 16.66667%; }
+    left: 16.6666666667%; }
 
   .col-wqhd-push-3 {
     position: relative;
@@ -1214,11 +1360,11 @@ Text Domain: galaxy-domain
 
   .col-wqhd-push-4 {
     position: relative;
-    left: 33.33333%; }
+    left: 33.3333333333%; }
 
   .col-wqhd-push-5 {
     position: relative;
-    left: 41.66667%; }
+    left: 41.6666666667%; }
 
   .col-wqhd-push-6 {
     position: relative;
@@ -1226,11 +1372,11 @@ Text Domain: galaxy-domain
 
   .col-wqhd-push-7 {
     position: relative;
-    left: 58.33333%; }
+    left: 58.3333333333%; }
 
   .col-wqhd-push-8 {
     position: relative;
-    left: 66.66667%; }
+    left: 66.6666666667%; }
 
   .col-wqhd-push-9 {
     position: relative;
@@ -1238,11 +1384,11 @@ Text Domain: galaxy-domain
 
   .col-wqhd-push-10 {
     position: relative;
-    left: 83.33333%; }
+    left: 83.3333333333%; }
 
   .col-wqhd-push-11 {
     position: relative;
-    left: 91.66667%; }
+    left: 91.6666666667%; }
 
   .col-wqhd-push-12 {
     position: relative;
@@ -1250,11 +1396,11 @@ Text Domain: galaxy-domain
 
   .col-wqhd-offset-1 {
     position: relative;
-    margin-left: 8.33333%; }
+    margin-left: 8.3333333333%; }
 
   .col-wqhd-offset-2 {
     position: relative;
-    margin-left: 16.66667%; }
+    margin-left: 16.6666666667%; }
 
   .col-wqhd-offset-3 {
     position: relative;
@@ -1262,11 +1408,11 @@ Text Domain: galaxy-domain
 
   .col-wqhd-offset-4 {
     position: relative;
-    margin-left: 33.33333%; }
+    margin-left: 33.3333333333%; }
 
   .col-wqhd-offset-5 {
     position: relative;
-    margin-left: 41.66667%; }
+    margin-left: 41.6666666667%; }
 
   .col-wqhd-offset-6 {
     position: relative;
@@ -1274,11 +1420,11 @@ Text Domain: galaxy-domain
 
   .col-wqhd-offset-7 {
     position: relative;
-    margin-left: 58.33333%; }
+    margin-left: 58.3333333333%; }
 
   .col-wqhd-offset-8 {
     position: relative;
-    margin-left: 66.66667%; }
+    margin-left: 66.6666666667%; }
 
   .col-wqhd-offset-9 {
     position: relative;
@@ -1286,463 +1432,623 @@ Text Domain: galaxy-domain
 
   .col-wqhd-offset-10 {
     position: relative;
-    margin-left: 83.33333%; }
+    margin-left: 83.3333333333%; }
 
   .col-wqhd-offset-11 {
     position: relative;
-    margin-left: 91.66667%; }
+    margin-left: 91.6666666667%; }
 
   .col-wqhd-offset-12 {
     position: relative;
     margin-left: 100%; } }
 @media (min-width: 1920px) {
-  .col-fhd-1 {
+  .col-fhd-expand-1 {
     position: relative;
-    width: 8.33333%;
+    -ms-flex: 0 0 6.25%;
+    flex: 0 0 6.25%;
+    max-width: 6.25%;
     float: left; }
 
-  .col-fhd-2 {
+  .col-fhd-expand-2 {
     position: relative;
-    width: 16.66667%;
+    -ms-flex: 0 0 12.5%;
+    flex: 0 0 12.5%;
+    max-width: 12.5%;
     float: left; }
 
-  .col-fhd-3 {
+  .col-fhd-expand-3 {
     position: relative;
-    width: 25%;
+    -ms-flex: 0 0 18.75%;
+    flex: 0 0 18.75%;
+    max-width: 18.75%;
     float: left; }
 
-  .col-fhd-4 {
+  .col-fhd-expand-4 {
     position: relative;
-    width: 33.33333%;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
     float: left; }
 
-  .col-fhd-5 {
+  .col-fhd-expand-5 {
     position: relative;
-    width: 41.66667%;
+    -ms-flex: 0 0 31.25%;
+    flex: 0 0 31.25%;
+    max-width: 31.25%;
     float: left; }
 
-  .col-fhd-6 {
+  .col-fhd-expand-6 {
     position: relative;
-    width: 50%;
+    -ms-flex: 0 0 37.5%;
+    flex: 0 0 37.5%;
+    max-width: 37.5%;
     float: left; }
 
-  .col-fhd-7 {
+  .col-fhd-expand-7 {
     position: relative;
-    width: 58.33333%;
+    -ms-flex: 0 0 43.75%;
+    flex: 0 0 43.75%;
+    max-width: 43.75%;
     float: left; }
 
-  .col-fhd-8 {
+  .col-fhd-expand-8 {
     position: relative;
-    width: 66.66667%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
     float: left; }
 
-  .col-fhd-9 {
+  .col-fhd-expand-9 {
     position: relative;
-    width: 75%;
+    -ms-flex: 0 0 56.25%;
+    flex: 0 0 56.25%;
+    max-width: 56.25%;
     float: left; }
 
-  .col-fhd-10 {
+  .col-fhd-expand-10 {
     position: relative;
-    width: 83.33333%;
+    -ms-flex: 0 0 62.5%;
+    flex: 0 0 62.5%;
+    max-width: 62.5%;
     float: left; }
 
-  .col-fhd-11 {
+  .col-fhd-expand-11 {
     position: relative;
-    width: 91.66667%;
+    -ms-flex: 0 0 68.75%;
+    flex: 0 0 68.75%;
+    max-width: 68.75%;
     float: left; }
 
-  .col-fhd-12 {
+  .col-fhd-expand-12 {
     position: relative;
-    width: 100%;
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
     float: left; }
 
-  .col-fhd-13 {
+  .col-fhd-expand-13 {
     position: relative;
-    width: 108.33333%;
+    -ms-flex: 0 0 81.25%;
+    flex: 0 0 81.25%;
+    max-width: 81.25%;
     float: left; }
 
-  .col-fhd-14 {
+  .col-fhd-expand-14 {
     position: relative;
-    width: 116.66667%;
+    -ms-flex: 0 0 87.5%;
+    flex: 0 0 87.5%;
+    max-width: 87.5%;
     float: left; }
 
-  .col-fhd-15 {
+  .col-fhd-expand-15 {
     position: relative;
-    width: 125%;
+    -ms-flex: 0 0 93.75%;
+    flex: 0 0 93.75%;
+    max-width: 93.75%;
     float: left; }
 
-  .col-fhd-16 {
+  .col-fhd-expand-16 {
     position: relative;
-    width: 133.33333%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
     float: left; }
 
-  .col-fhd-pull-expand-1 {
-    position: relative; }
+  .col-fhd-expand-pull-1 {
+    position: relative;
+    right: 6.25%; }
 
-  .col-fhd-pull-expand-2 {
-    position: relative; }
+  .col-fhd-expand-pull-2 {
+    position: relative;
+    right: 12.5%; }
 
-  .col-fhd-pull-expand-3 {
-    position: relative; }
+  .col-fhd-expand-pull-3 {
+    position: relative;
+    right: 18.75%; }
 
-  .col-fhd-pull-expand-4 {
-    position: relative; }
+  .col-fhd-expand-pull-4 {
+    position: relative;
+    right: 25%; }
 
-  .col-fhd-pull-expand-5 {
-    position: relative; }
+  .col-fhd-expand-pull-5 {
+    position: relative;
+    right: 31.25%; }
 
-  .col-fhd-pull-expand-6 {
-    position: relative; }
+  .col-fhd-expand-pull-6 {
+    position: relative;
+    right: 37.5%; }
 
-  .col-fhd-pull-expand-7 {
-    position: relative; }
+  .col-fhd-expand-pull-7 {
+    position: relative;
+    right: 43.75%; }
 
-  .col-fhd-pull-expand-8 {
-    position: relative; }
+  .col-fhd-expand-pull-8 {
+    position: relative;
+    right: 50%; }
 
-  .col-fhd-pull-expand-9 {
-    position: relative; }
+  .col-fhd-expand-pull-9 {
+    position: relative;
+    right: 56.25%; }
 
-  .col-fhd-pull-expand-10 {
-    position: relative; }
+  .col-fhd-expand-pull-10 {
+    position: relative;
+    right: 62.5%; }
 
-  .col-fhd-pull-expand-11 {
-    position: relative; }
+  .col-fhd-expand-pull-11 {
+    position: relative;
+    right: 68.75%; }
 
-  .col-fhd-pull-expand-12 {
-    position: relative; }
+  .col-fhd-expand-pull-12 {
+    position: relative;
+    right: 75%; }
 
-  .col-fhd-pull-expand-13 {
-    position: relative; }
+  .col-fhd-expand-pull-13 {
+    position: relative;
+    right: 81.25%; }
 
-  .col-fhd-pull-expand-14 {
-    position: relative; }
+  .col-fhd-expand-pull-14 {
+    position: relative;
+    right: 87.5%; }
 
-  .col-fhd-pull-expand-15 {
-    position: relative; }
+  .col-fhd-expand-pull-15 {
+    position: relative;
+    right: 93.75%; }
 
-  .col-fhd-pull-expand-16 {
-    position: relative; }
+  .col-fhd-expand-pull-16 {
+    position: relative;
+    right: 100%; }
 
-  .col-fhd-push-expand-1 {
-    position: relative; }
+  .col-fhd-expand-push-1 {
+    position: relative;
+    left: 6.25%; }
 
-  .col-fhd-push-expand-2 {
-    position: relative; }
+  .col-fhd-expand-push-2 {
+    position: relative;
+    left: 12.5%; }
 
-  .col-fhd-push-expand-3 {
-    position: relative; }
+  .col-fhd-expand-push-3 {
+    position: relative;
+    left: 18.75%; }
 
-  .col-fhd-push-expand-4 {
-    position: relative; }
+  .col-fhd-expand-push-4 {
+    position: relative;
+    left: 25%; }
 
-  .col-fhd-push-expand-5 {
-    position: relative; }
+  .col-fhd-expand-push-5 {
+    position: relative;
+    left: 31.25%; }
 
-  .col-fhd-push-expand-6 {
-    position: relative; }
+  .col-fhd-expand-push-6 {
+    position: relative;
+    left: 37.5%; }
 
-  .col-fhd-push-expand-7 {
-    position: relative; }
+  .col-fhd-expand-push-7 {
+    position: relative;
+    left: 43.75%; }
 
-  .col-fhd-push-expand-8 {
-    position: relative; }
+  .col-fhd-expand-push-8 {
+    position: relative;
+    left: 50%; }
 
-  .col-fhd-push-expand-9 {
-    position: relative; }
+  .col-fhd-expand-push-9 {
+    position: relative;
+    left: 56.25%; }
 
-  .col-fhd-push-expand-10 {
-    position: relative; }
+  .col-fhd-expand-push-10 {
+    position: relative;
+    left: 62.5%; }
 
-  .col-fhd-push-expand-11 {
-    position: relative; }
+  .col-fhd-expand-push-11 {
+    position: relative;
+    left: 68.75%; }
 
-  .col-fhd-push-expand-12 {
-    position: relative; }
+  .col-fhd-expand-push-12 {
+    position: relative;
+    left: 75%; }
 
-  .col-fhd-push-expand-13 {
-    position: relative; }
+  .col-fhd-expand-push-13 {
+    position: relative;
+    left: 81.25%; }
 
-  .col-fhd-push-expand-14 {
-    position: relative; }
+  .col-fhd-expand-push-14 {
+    position: relative;
+    left: 87.5%; }
 
-  .col-fhd-push-expand-15 {
-    position: relative; }
+  .col-fhd-expand-push-15 {
+    position: relative;
+    left: 93.75%; }
 
-  .col-fhd-push-expand-16 {
-    position: relative; }
+  .col-fhd-expand-push-16 {
+    position: relative;
+    left: 100%; }
 
-  .col-fhd-offset-expand-1 {
-    position: relative; }
+  .col-fhd-expand-offset-1 {
+    position: relative;
+    margin-left: 6.25%; }
 
-  .col-fhd-offset-expand-2 {
-    position: relative; }
+  .col-fhd-expand-offset-2 {
+    position: relative;
+    margin-left: 12.5%; }
 
-  .col-fhd-offset-expand-3 {
-    position: relative; }
+  .col-fhd-expand-offset-3 {
+    position: relative;
+    margin-left: 18.75%; }
 
-  .col-fhd-offset-expand-4 {
-    position: relative; }
+  .col-fhd-expand-offset-4 {
+    position: relative;
+    margin-left: 25%; }
 
-  .col-fhd-offset-expand-5 {
-    position: relative; }
+  .col-fhd-expand-offset-5 {
+    position: relative;
+    margin-left: 31.25%; }
 
-  .col-fhd-offset-expand-6 {
-    position: relative; }
+  .col-fhd-expand-offset-6 {
+    position: relative;
+    margin-left: 37.5%; }
 
-  .col-fhd-offset-expand-7 {
-    position: relative; }
+  .col-fhd-expand-offset-7 {
+    position: relative;
+    margin-left: 43.75%; }
 
-  .col-fhd-offset-expand-8 {
-    position: relative; }
+  .col-fhd-expand-offset-8 {
+    position: relative;
+    margin-left: 50%; }
 
-  .col-fhd-offset-expand-9 {
-    position: relative; }
+  .col-fhd-expand-offset-9 {
+    position: relative;
+    margin-left: 56.25%; }
 
-  .col-fhd-offset-expand-10 {
-    position: relative; }
+  .col-fhd-expand-offset-10 {
+    position: relative;
+    margin-left: 62.5%; }
 
-  .col-fhd-offset-expand-11 {
-    position: relative; }
+  .col-fhd-expand-offset-11 {
+    position: relative;
+    margin-left: 68.75%; }
 
-  .col-fhd-offset-expand-12 {
-    position: relative; }
+  .col-fhd-expand-offset-12 {
+    position: relative;
+    margin-left: 75%; }
 
-  .col-fhd-offset-expand-13 {
-    position: relative; }
+  .col-fhd-expand-offset-13 {
+    position: relative;
+    margin-left: 81.25%; }
 
-  .col-fhd-offset-expand-14 {
-    position: relative; }
+  .col-fhd-expand-offset-14 {
+    position: relative;
+    margin-left: 87.5%; }
 
-  .col-fhd-offset-expand-15 {
-    position: relative; }
+  .col-fhd-expand-offset-15 {
+    position: relative;
+    margin-left: 93.75%; }
 
-  .col-fhd-offset-expand-16 {
-    position: relative; } }
+  .col-fhd-expand-offset-16 {
+    position: relative;
+    margin-left: 100%; } }
 @media (min-width: 2560px) {
-  .col-wqhd-1 {
+  .col-wqhd-expand-1 {
     position: relative;
-    width: 8.33333%;
+    -ms-flex: 0 0 6.25%;
+    flex: 0 0 6.25%;
+    max-width: 6.25%;
     float: left; }
 
-  .col-wqhd-2 {
+  .col-wqhd-expand-2 {
     position: relative;
-    width: 16.66667%;
+    -ms-flex: 0 0 12.5%;
+    flex: 0 0 12.5%;
+    max-width: 12.5%;
     float: left; }
 
-  .col-wqhd-3 {
+  .col-wqhd-expand-3 {
     position: relative;
-    width: 25%;
+    -ms-flex: 0 0 18.75%;
+    flex: 0 0 18.75%;
+    max-width: 18.75%;
     float: left; }
 
-  .col-wqhd-4 {
+  .col-wqhd-expand-4 {
     position: relative;
-    width: 33.33333%;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
     float: left; }
 
-  .col-wqhd-5 {
+  .col-wqhd-expand-5 {
     position: relative;
-    width: 41.66667%;
+    -ms-flex: 0 0 31.25%;
+    flex: 0 0 31.25%;
+    max-width: 31.25%;
     float: left; }
 
-  .col-wqhd-6 {
+  .col-wqhd-expand-6 {
     position: relative;
-    width: 50%;
+    -ms-flex: 0 0 37.5%;
+    flex: 0 0 37.5%;
+    max-width: 37.5%;
     float: left; }
 
-  .col-wqhd-7 {
+  .col-wqhd-expand-7 {
     position: relative;
-    width: 58.33333%;
+    -ms-flex: 0 0 43.75%;
+    flex: 0 0 43.75%;
+    max-width: 43.75%;
     float: left; }
 
-  .col-wqhd-8 {
+  .col-wqhd-expand-8 {
     position: relative;
-    width: 66.66667%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
     float: left; }
 
-  .col-wqhd-9 {
+  .col-wqhd-expand-9 {
     position: relative;
-    width: 75%;
+    -ms-flex: 0 0 56.25%;
+    flex: 0 0 56.25%;
+    max-width: 56.25%;
     float: left; }
 
-  .col-wqhd-10 {
+  .col-wqhd-expand-10 {
     position: relative;
-    width: 83.33333%;
+    -ms-flex: 0 0 62.5%;
+    flex: 0 0 62.5%;
+    max-width: 62.5%;
     float: left; }
 
-  .col-wqhd-11 {
+  .col-wqhd-expand-11 {
     position: relative;
-    width: 91.66667%;
+    -ms-flex: 0 0 68.75%;
+    flex: 0 0 68.75%;
+    max-width: 68.75%;
     float: left; }
 
-  .col-wqhd-12 {
+  .col-wqhd-expand-12 {
     position: relative;
-    width: 100%;
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
     float: left; }
 
-  .col-wqhd-13 {
+  .col-wqhd-expand-13 {
     position: relative;
-    width: 108.33333%;
+    -ms-flex: 0 0 81.25%;
+    flex: 0 0 81.25%;
+    max-width: 81.25%;
     float: left; }
 
-  .col-wqhd-14 {
+  .col-wqhd-expand-14 {
     position: relative;
-    width: 116.66667%;
+    -ms-flex: 0 0 87.5%;
+    flex: 0 0 87.5%;
+    max-width: 87.5%;
     float: left; }
 
-  .col-wqhd-15 {
+  .col-wqhd-expand-15 {
     position: relative;
-    width: 125%;
+    -ms-flex: 0 0 93.75%;
+    flex: 0 0 93.75%;
+    max-width: 93.75%;
     float: left; }
 
-  .col-wqhd-16 {
+  .col-wqhd-expand-16 {
     position: relative;
-    width: 133.33333%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
     float: left; }
 
-  .col-wqhd-pull-expand-1 {
-    position: relative; }
+  .col-wqhd-expand-pull-1 {
+    position: relative;
+    right: 6.25%; }
 
-  .col-wqhd-pull-expand-2 {
-    position: relative; }
+  .col-wqhd-expand-pull-2 {
+    position: relative;
+    right: 12.5%; }
 
-  .col-wqhd-pull-expand-3 {
-    position: relative; }
+  .col-wqhd-expand-pull-3 {
+    position: relative;
+    right: 18.75%; }
 
-  .col-wqhd-pull-expand-4 {
-    position: relative; }
+  .col-wqhd-expand-pull-4 {
+    position: relative;
+    right: 25%; }
 
-  .col-wqhd-pull-expand-5 {
-    position: relative; }
+  .col-wqhd-expand-pull-5 {
+    position: relative;
+    right: 31.25%; }
 
-  .col-wqhd-pull-expand-6 {
-    position: relative; }
+  .col-wqhd-expand-pull-6 {
+    position: relative;
+    right: 37.5%; }
 
-  .col-wqhd-pull-expand-7 {
-    position: relative; }
+  .col-wqhd-expand-pull-7 {
+    position: relative;
+    right: 43.75%; }
 
-  .col-wqhd-pull-expand-8 {
-    position: relative; }
+  .col-wqhd-expand-pull-8 {
+    position: relative;
+    right: 50%; }
 
-  .col-wqhd-pull-expand-9 {
-    position: relative; }
+  .col-wqhd-expand-pull-9 {
+    position: relative;
+    right: 56.25%; }
 
-  .col-wqhd-pull-expand-10 {
-    position: relative; }
+  .col-wqhd-expand-pull-10 {
+    position: relative;
+    right: 62.5%; }
 
-  .col-wqhd-pull-expand-11 {
-    position: relative; }
+  .col-wqhd-expand-pull-11 {
+    position: relative;
+    right: 68.75%; }
 
-  .col-wqhd-pull-expand-12 {
-    position: relative; }
+  .col-wqhd-expand-pull-12 {
+    position: relative;
+    right: 75%; }
 
-  .col-wqhd-pull-expand-13 {
-    position: relative; }
+  .col-wqhd-expand-pull-13 {
+    position: relative;
+    right: 81.25%; }
 
-  .col-wqhd-pull-expand-14 {
-    position: relative; }
+  .col-wqhd-expand-pull-14 {
+    position: relative;
+    right: 87.5%; }
 
-  .col-wqhd-pull-expand-15 {
-    position: relative; }
+  .col-wqhd-expand-pull-15 {
+    position: relative;
+    right: 93.75%; }
 
-  .col-wqhd-pull-expand-16 {
-    position: relative; }
+  .col-wqhd-expand-pull-16 {
+    position: relative;
+    right: 100%; }
 
-  .col-wqhd-push-expand-1 {
-    position: relative; }
+  .col-wqhd-expand-push-1 {
+    position: relative;
+    left: 6.25%; }
 
-  .col-wqhd-push-expand-2 {
-    position: relative; }
+  .col-wqhd-expand-push-2 {
+    position: relative;
+    left: 12.5%; }
 
-  .col-wqhd-push-expand-3 {
-    position: relative; }
+  .col-wqhd-expand-push-3 {
+    position: relative;
+    left: 18.75%; }
 
-  .col-wqhd-push-expand-4 {
-    position: relative; }
+  .col-wqhd-expand-push-4 {
+    position: relative;
+    left: 25%; }
 
-  .col-wqhd-push-expand-5 {
-    position: relative; }
+  .col-wqhd-expand-push-5 {
+    position: relative;
+    left: 31.25%; }
 
-  .col-wqhd-push-expand-6 {
-    position: relative; }
+  .col-wqhd-expand-push-6 {
+    position: relative;
+    left: 37.5%; }
 
-  .col-wqhd-push-expand-7 {
-    position: relative; }
+  .col-wqhd-expand-push-7 {
+    position: relative;
+    left: 43.75%; }
 
-  .col-wqhd-push-expand-8 {
-    position: relative; }
+  .col-wqhd-expand-push-8 {
+    position: relative;
+    left: 50%; }
 
-  .col-wqhd-push-expand-9 {
-    position: relative; }
+  .col-wqhd-expand-push-9 {
+    position: relative;
+    left: 56.25%; }
 
-  .col-wqhd-push-expand-10 {
-    position: relative; }
+  .col-wqhd-expand-push-10 {
+    position: relative;
+    left: 62.5%; }
 
-  .col-wqhd-push-expand-11 {
-    position: relative; }
+  .col-wqhd-expand-push-11 {
+    position: relative;
+    left: 68.75%; }
 
-  .col-wqhd-push-expand-12 {
-    position: relative; }
+  .col-wqhd-expand-push-12 {
+    position: relative;
+    left: 75%; }
 
-  .col-wqhd-push-expand-13 {
-    position: relative; }
+  .col-wqhd-expand-push-13 {
+    position: relative;
+    left: 81.25%; }
 
-  .col-wqhd-push-expand-14 {
-    position: relative; }
+  .col-wqhd-expand-push-14 {
+    position: relative;
+    left: 87.5%; }
 
-  .col-wqhd-push-expand-15 {
-    position: relative; }
+  .col-wqhd-expand-push-15 {
+    position: relative;
+    left: 93.75%; }
 
-  .col-wqhd-push-expand-16 {
-    position: relative; }
+  .col-wqhd-expand-push-16 {
+    position: relative;
+    left: 100%; }
 
-  .col-wqhd-offset-expand-1 {
-    position: relative; }
+  .col-wqhd-expand-offset-1 {
+    position: relative;
+    margin-left: 6.25%; }
 
-  .col-wqhd-offset-expand-2 {
-    position: relative; }
+  .col-wqhd-expand-offset-2 {
+    position: relative;
+    margin-left: 12.5%; }
 
-  .col-wqhd-offset-expand-3 {
-    position: relative; }
+  .col-wqhd-expand-offset-3 {
+    position: relative;
+    margin-left: 18.75%; }
 
-  .col-wqhd-offset-expand-4 {
-    position: relative; }
+  .col-wqhd-expand-offset-4 {
+    position: relative;
+    margin-left: 25%; }
 
-  .col-wqhd-offset-expand-5 {
-    position: relative; }
+  .col-wqhd-expand-offset-5 {
+    position: relative;
+    margin-left: 31.25%; }
 
-  .col-wqhd-offset-expand-6 {
-    position: relative; }
+  .col-wqhd-expand-offset-6 {
+    position: relative;
+    margin-left: 37.5%; }
 
-  .col-wqhd-offset-expand-7 {
-    position: relative; }
+  .col-wqhd-expand-offset-7 {
+    position: relative;
+    margin-left: 43.75%; }
 
-  .col-wqhd-offset-expand-8 {
-    position: relative; }
+  .col-wqhd-expand-offset-8 {
+    position: relative;
+    margin-left: 50%; }
 
-  .col-wqhd-offset-expand-9 {
-    position: relative; }
+  .col-wqhd-expand-offset-9 {
+    position: relative;
+    margin-left: 56.25%; }
 
-  .col-wqhd-offset-expand-10 {
-    position: relative; }
+  .col-wqhd-expand-offset-10 {
+    position: relative;
+    margin-left: 62.5%; }
 
-  .col-wqhd-offset-expand-11 {
-    position: relative; }
+  .col-wqhd-expand-offset-11 {
+    position: relative;
+    margin-left: 68.75%; }
 
-  .col-wqhd-offset-expand-12 {
-    position: relative; }
+  .col-wqhd-expand-offset-12 {
+    position: relative;
+    margin-left: 75%; }
 
-  .col-wqhd-offset-expand-13 {
-    position: relative; }
+  .col-wqhd-expand-offset-13 {
+    position: relative;
+    margin-left: 81.25%; }
 
-  .col-wqhd-offset-expand-14 {
-    position: relative; }
+  .col-wqhd-expand-offset-14 {
+    position: relative;
+    margin-left: 87.5%; }
 
-  .col-wqhd-offset-expand-15 {
-    position: relative; }
+  .col-wqhd-expand-offset-15 {
+    position: relative;
+    margin-left: 93.75%; }
 
-  .col-wqhd-offset-expand-16 {
-    position: relative; } }
+  .col-wqhd-expand-offset-16 {
+    position: relative;
+    margin-left: 100%; } }
 /*========================================
 
 #Format tools
