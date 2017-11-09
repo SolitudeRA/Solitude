@@ -14,7 +14,7 @@
   margin-right  : auto;
 }
 
-.container, .container-half{
+.container{
   width         : 100%;
   padding-left  : 15px;
   padding-right : 15px;
@@ -40,24 +40,6 @@
   }
 }
 
-.container-half{
-  @media (min-width : $width-iPad){
-    width : 600px;
-  }
-  @media (min-width : $width-iPadPro){
-    width : 700px;
-  }
-  @media (min-width : $width-laptop){
-    width : 800px;
-  }
-  @media (min-width : $width-fhd){
-    width : 1100px;
-  }
-  @media (min-width : $width-wqhd){
-    width : 1400px;
-  }
-}
-
 .row{
   display       : flex;
   flex-wrap     : wrap;
@@ -72,13 +54,13 @@
 
 ========================================*/
 //Generate format system
-@each $format-prefix, $format-width in ("common", 0), ("iPad", $width-iPad), ("iPadPro", $width-iPadPro), ("laptop", $width-laptop), ("fhd", $width-fhd), ("wqhd", $width-wqhd){
-  @media (min-width : $format-width){
-    @each $format-suffix in "", -pull, -push, -offset{
+@each $prefix, $breakpoints in ("common", 0), ("iPad", $width-iPad), ("iPadPro", $width-iPadPro), ("laptop", $width-laptop), ("fhd", $width-fhd), ("wqhd", $width-wqhd){
+  @media (min-width : $breakpoints){
+    @each $suffix in "", -pull, -push, -offset{
       @for $i from 1 through 12{
-        .col-#{$format-prefix}#{$format-suffix}-#{$i}{
+        .col-#{$prefix}#{$suffix}-#{$i}{
           position : relative;
-          @include format_suffix_loop($format-suffix, 12, $i);
+          @include format_suffix_loop($suffix, 12, $i);
         }
       }
     }
