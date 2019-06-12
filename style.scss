@@ -10,10 +10,11 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 Tags: black , responsive
 Text Domain: galaxy-domain
 */
-@import "variables";
-@import "grid";
-@import "fonts";
-@import "content";
+
+@import "assets/css/variables";
+@import "assets/css/grid";
+@import "assets/css/fonts";
+@import "assets/css/content";
 
 body{
   background-color : $galaxy-background;
