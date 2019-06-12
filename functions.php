@@ -1,5 +1,7 @@
 <?php
-    function galaxy_setup() {
+
+
+    function solitude_setup() {
         add_theme_support("custom-logo", array(
             "width"       => 250,
             "height"      => 250,
