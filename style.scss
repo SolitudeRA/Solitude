@@ -11,10 +11,9 @@ Tags: black , responsive
 Text Domain: galaxy-domain
 */
 
-@import "assets/css/variables";
-@import "assets/css/grid";
-@import "assets/css/fonts";
-@import "assets/css/content";
+@import "assets/scss/bootstrap/bootstrap-grid";
+@import "assets/scss/variables";
+@import "assets/scss/fonts";
 
 body{
   background-color : $galaxy-background;
