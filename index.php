@@ -1,12 +1,14 @@
 <?php get_header("index"); ?>
 <?php get_sidebar("left"); ?>
 <?php get_sidebar("right"); ?>
-<?php get_template_part("template-parts/title/title", "main"); ?>
 
 <?php if (have_posts()) :
 
     while (have_posts()) : the_post();
-        get_template_part("template-parts/post/content", get_post_format());
+        if (has_post_format()) :
+            get_template_part("template-parts/post/content", get_post_format());
+        endif;
+        get_template_part("template-parts/content/content");
     endwhile;
 
     the_posts_pagination(array(
@@ -20,5 +22,6 @@ else : get_404_template();
 endif;
 ?>
 
+<?php get_sidebar("bottom"); ?>
 <?php get_footer("index"); ?>
 

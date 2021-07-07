@@ -1,17 +1,32 @@
-/* Error: Can't find stylesheet to import.
- *    ,
- * 14 | @import "assets/scss/variables/variables";
- *    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
- *    '
- *   style.scss 14:9  root stylesheet */
+/*
+Theme Name: Solitude
+Theme URI: http://www.protogalaxy.me/tag/solitude/
+Author: Arthur.Lee
+Author URI: https://www.protogalaxy.me
+Description: Dark theme based on scss frame project Hybrid
+Version: 1.0
+License: GNU General Public License v3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
+Tags: black , responsive
+Text Domain: galaxy-domain
+*/
+/*========================================
 
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a    \2577 \a 14 \2502  @import \"assets/scss/variables/variables\";\a    \2502          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   style.scss 14:9  root stylesheet";
+  Theme Settings
+
+ ========================================*/
+/*========================================
+
+Index page
+
+========================================*/
+.posts-container .post {
+  color: #ABB2BE;
 }
+/*========================================
+
+Post page
+
+========================================*/
+
+/*# sourceMappingURL=style.css.map */
