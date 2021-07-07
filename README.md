@@ -1,3 +1,3 @@
-# Theme Galaxy User Guide
+# Solitude User Guide
 
 ##Color

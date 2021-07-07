@@ -1,31 +1,24 @@
-<?php get_header(); ?>
+<?php get_header("index"); ?>
+<?php get_sidebar("left"); ?>
+<?php get_sidebar("right"); ?>
+<?php get_template_part("template-parts/title/title", "main"); ?>
 
-<div class="main-container">
-    <?php get_sidebar( "left" ); ?>
-    <div class="row">
-        <div class="posts-container">
-            <?php if ( have_posts() ) :
+<?php if (have_posts()) :
 
-                while ( have_posts() ) : the_post();
+    while (have_posts()) : the_post();
+        get_template_part("template-parts/post/content", get_post_format());
+    endwhile;
 
-                    get_template_part( "template-parts/post/content", get_post_format() );
+    the_posts_pagination(array(
+        "mid_size" => "10",
+        "prev_text" => "",
+        "next_text" => "",
+        "before_page_number" => ""
+    ));
 
-                endwhile;
+else : get_404_template();
+endif;
+?>
 
-                the_posts_pagination( array(
-                    "mid_size"           => "",
-                    "prev_text"          => "",
-                    "next_text"          => "",
-                    "before_page_number" => ""
-                ) );
-
-            else : get_404_template();
-
-            endif;
-            ?>
-        </div>
-        <?php get_sidebar( "right" ) ?>
-    </div>
-</div>
-<?php get_footer(); ?>
+<?php get_footer("index"); ?>
 
