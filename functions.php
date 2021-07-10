@@ -186,9 +186,24 @@ add_action("widgets_init", "solitude_widgets_init");
 
 /**=====================================================================================================*/
 function solitude_theme_color_customize_register($color_customize) {
-    $color_customize -> add_setting("theme_color", array(
-        "type"    => "option",
-        "default" => "black"));
+    $color_customize -> add_section("theme_color", array(
+        "title"       => __("Theme Color", "customize-theme-color-title"),
+        "description" => "Change the theme color",
+        "priority"    => 120));
+
+    $color_customize -> add_setting("theme_color_options[color_scheme]", array(
+        "default"    => "value1",
+        "capability" => "edit_theme_options",
+        "type"       => "option"));
+
+    $color_customize -> add_control("theme_color_scheme", array(
+        "label"    => __("Color Scheme", "customize-theme-color-scheme"),
+        "section"  => "solitude_color_scheme",
+        "settings" => "solitude_theme_options[color_scheme]",
+        "type"     => "radio",
+        "choices"  => array(
+            "value1" => "black",
+            "value2" => "white")));
 }
 
 add_action("customize_register", "solitude_theme_color_customize_register");
