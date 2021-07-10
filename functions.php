@@ -186,7 +186,7 @@ add_action("widgets_init", "solitude_widgets_init");
 
 /**=====================================================================================================*/
 function solitude_theme_color_customize_register($color_customize) {
-    $color_customize -> add_section("theme_color", array(
+    $color_customize -> add_section("colors", array(
         "title"       => __("Theme Color", "customize-theme-color-title"),
         "description" => "Change the theme color",
         "priority"    => 120));
