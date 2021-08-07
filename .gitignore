@@ -1,28 +1,30 @@
 # IntelliJ project files
 .idea
 
-### macOS template
-*.DS_Store
+#NodeJS
+node_modules
+
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# General
+.DS_Store
 .AppleDouble
 .LSOverride
 
 # Thumbnails
 ._*
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-### Sass template
+# Sass
 .sass-cache/
 *.css.map
+
+
+
 
