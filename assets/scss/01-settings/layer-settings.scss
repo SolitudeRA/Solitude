@@ -1,0 +1,89 @@
+$layer-z-index-0dp  : 0;
+$layer-z-index-2dp  : 200;
+$layer-z-index-4dp  : 400;
+$layer-z-index-8dp  : 800;
+$layer-z-index-12dp : 1200;
+$layer-z-index-16dp : 1600;
+$layer-z-index-20dp : 2000;
+$layer-z-index-24dp : 2400;
+
+@mixin layer-0dp {
+  z-index : $layer-z-index-0dp;
+}
+
+@mixin layer-2dp {
+  z-index : $layer-z-index-2dp;
+}
+
+@mixin layer-4dp {
+  z-index : $layer-z-index-4dp;
+}
+
+@mixin layer-8dp {
+  z-index : $layer-z-index-8dp;
+}
+
+@mixin layer-12dp {
+  z-index : $layer-z-index-12dp;
+}
+
+@mixin layer-16dp {
+  z-index : $layer-z-index-16dp;
+}
+
+@mixin layer-20dp {
+  z-index : $layer-z-index-20dp;
+}
+
+@mixin layer-24dp {
+  z-index : $layer-z-index-24dp;
+}
+
+@mixin layer-with-shadow-2dp {
+  box-shadow : 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+  0 3px 1px -2px rgba(0, 0, 0, 0.12),
+  0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  z-index    : $layer-z-index-2dp;
+}
+
+@mixin layer-with-shadow-4dp {
+  box-shadow : 0 4px 5px 0 rgba(0, 0, 0, 0.14),
+  0 1px 10px 0 rgba(0, 0, 0, 0.12),
+  0 2px 4px -1px rgba(0, 0, 0, 0.2);
+  z-index    : $layer-z-index-4dp;
+}
+
+@mixin layer-with-shadow-8dp {
+  box-shadow : 0 8px 10px 1px rgba(0, 0, 0, 0.14),
+  0 3px 14px 2px rgba(0, 0, 0, 0.12),
+  0 5px 5px -3px rgba(0, 0, 0, 0.2);
+  z-index    : $layer-z-index-8dp;
+}
+
+@mixin layer-with-shadow-12dp {
+  box-shadow : 0 12px 13px 1px rgba(0, 0, 0, 0.14),
+  0 4px 20px 2px rgba(0, 0, 0, 0.12),
+  0 6px 8px -4px rgba(0, 0, 0, 0.2);
+  z-index    : $layer-z-index-12dp;
+}
+
+@mixin layer-with-shadow-16dp {
+  box-shadow : 0 16px 24px 2px rgba(0, 0, 0, 0.14),
+  0 6px 30px 5px rgba(0, 0, 0, 0.12),
+  0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  z-index    : $layer-z-index-16dp;
+}
+
+@mixin layer-with-shadow-20dp {
+  box-shadow : 0 8px 32px 5px rgba(0, 0, 0, 0.14),
+  0 9px 23px -1px rgba(0, 0, 0, 0.12),
+  0 16px 24px -1px rgba(0, 0, 0, 0.2);
+  z-index    : $layer-z-index-20dp;
+}
+
+@mixin layer-with-shadow-24dp {
+  box-shadow : 0 9px 46px 8px rgba(0, 0, 0, 0.14),
+  0 11px 15px -7px rgba(0, 0, 0, 0.12),
+  0 24px 38px 3px rgba(0, 0, 0, 0.2);
+  z-index    : $layer-z-index-24dp;
+}

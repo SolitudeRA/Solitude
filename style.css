@@ -11,5 +11,8 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 Text Domain: solitude
 Tags: black , responsive
 */
+.full-page-scrolling-container .full-page-scrolling-row .full-page-scrolling-section {
+  border-radius: 2px;
+}
 
 /*# sourceMappingURL=style.css.map */

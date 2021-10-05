@@ -1,22 +1,14 @@
-<?php get_header("index"); ?>
-<?php get_sidebar("left"); ?>
+<?php
 
-<?php get_template_part("template-parts/index/index", "main"); ?>
+get_template_part("template-parts/header/header", "index");
 
-<?php if (have_posts()):
+get_sidebar("left");
 
-    while (have_posts()):the_post();
-        if (has_post_format()):
-            get_template_part("template-parts/post/content", get_post_format());
-        else:
-            get_template_part("template-parts/post/content", "default");
-        endif;
+get_template_part("template-parts/index/index", "title");
 
-    endwhile;
-else:
-    get_404_template();
-endif; ?>
+get_template_part("template-parts/index/index", "content");
 
-<?php get_sidebar("bottom"); ?>
-<?php get_footer("index"); ?>
+get_sidebar("bottom");
+
+get_template_part("template-parts/footer/footer", "index");
 
